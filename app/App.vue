@@ -1,6 +1,7 @@
 <template lang='pug'>
   .app
-    h1 Hello MKDesign
+    nav.navbar.is-primary
+      .navbar-brand
 </template>
 
 <script>
