@@ -1,20 +1,15 @@
 <template lang='pug'>
-  .app
-    Navbar
+  nav.navbar.is-primary
+    .navbar-brand
+      a.navbar-item(href='#') MKDesign
 </template>
 
 <script>
-
-import Navbar from './components/layout/Navbar.vue'
-
 export default {
-  name: 'App',
+  name: 'Navbar',
   data () {
     return {
     }
-  },
-  components: {
-    Navbar,
   }
 }
 </script>
