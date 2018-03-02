@@ -6,15 +6,6 @@
 <script>
 import KeyboardKey from './KeyboardKey.vue'
 
-import variables from '!!sass-variable-loader!../../sass/variables/_size.scss'
-
-const keycapSize = 
-  variables.keycapSize
-    .split('').
-    filter((c) => {
-      return !isNaN(Number(c))
-    }).join('')
-
 export default {
 
   name: 'KeyboardRow',
@@ -29,7 +20,7 @@ export default {
 
       if (this.row.offset) {
         if (this.row.offset.left) {
-          styleObject.marginLeft = `${this.row.offset.left * keycapSize}px`
+          styleObject.marginLeft = `${this.row.offset.left * this.$keycapSize}px`
         }
       }
 

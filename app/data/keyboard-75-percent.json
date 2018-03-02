@@ -9,7 +9,7 @@
             {
               "id": "escape",
               "text": "Esc",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -24,22 +24,22 @@
             {
               "id": "f1",
               "text": "F1",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f2",
               "text": "F2",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f3",
               "text": "F3",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f4",
               "text": "F4",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -54,22 +54,22 @@
             {
               "id": "f5",
               "text": "F5",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f6",
               "text": "F6",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f7",
               "text": "F7",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f8",
               "text": "F8",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -84,22 +84,22 @@
             {
               "id": "f9",
               "text": "F9",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f10",
               "text": "F10",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f11",
               "text": "F11",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f12",
               "text": "F12",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -114,17 +114,17 @@
             {
               "id": "printScreen",
               "text": "prtScr",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "scrollLock",
               "text": "srcLk",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "pause",
               "text": "Pause",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -139,72 +139,72 @@
             {
               "id": "tilde",
               "text": "~\n`",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow1",
               "text": "!\n1",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow2",
               "text": "@\n2",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow3",
               "text": "#\n3",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow4",
               "text": "$\n4",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow5",
               "text": "%\n5",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow6",
               "text": "^\n6",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow7",
               "text": "&\n7",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow8",
               "text": "*\n8",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow9",
               "text": "(\n9",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow0",
               "text": ")\n0",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow-",
               "text": "_\n-",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "numberRow=",
               "text": "+\n=",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "backspace",
               "text": "Backspace",
-              "type": "double"
+              "size": "2"
             }
           ]
         },
@@ -214,72 +214,72 @@
             {
               "id": "tab",
               "text": "Tab",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "q",
               "text": "Q",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "w",
               "text": "W",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "e",
               "text": "E",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "r",
               "text": "R",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "t",
               "text": "T",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "y",
               "text": "Y",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "u",
               "text": "U",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "i",
               "text": "I",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "o",
               "text": "O",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "p",
               "text": "P",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "squareBracketOpen",
               "text": "[\n{",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "squareBracketClose",
               "text": "]\n}",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "backslash",
               "text": "\\\n|",
-              "type": "c-1-5"
+              "size": "1.5"
             }
           ]
         },
@@ -289,67 +289,67 @@
             {
               "id": "capsLock",
               "text": "CapsLock",
-              "type": "c-1-75"
+              "size": "1.75"
             },
             {
               "id": "a",
               "text": "A",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "s",
               "text": "S",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "d",
               "text": "D",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "f",
               "text": "F",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "g",
               "text": "G",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "h",
               "text": "H",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "j",
               "text": "J",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "k",
               "text": "K",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "l",
               "text": "L",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "colon",
               "text": ";\n:",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "quotation",
               "text": "'\n",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "enter",
               "text": "Enter",
-              "type": "c-2-25"
+              "size": "2.25"
             }
           ]
         },
@@ -359,62 +359,62 @@
             {
               "id": "leftShift",
               "text": "Shift",
-              "type": "c-2-25"
+              "size": "2.25"
             },
             {
               "id": "z",
               "text": "Z",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "x",
               "text": "X",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "c",
               "text": "C",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "v",
               "text": "V",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "b",
               "text": "B",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "n",
               "text": "N",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "m",
               "text": "M",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "comma",
               "text": "<\n,",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "dot",
               "text": ">\n.",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "slash",
               "text": "?\n/",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "rightShift",
               "text": "Shift",
-              "type": "c-2-75"
+              "size": "2.75"
             }
           ]
         },
@@ -424,42 +424,42 @@
             {
               "id": "leftCtrl",
               "text": "Ctrl",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "leftWin",
               "text": "Win",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "leftAlt",
               "text": "Alt",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "space",
               "text": "",
-              "type": "space"
+              "size": "6.25"
             },
             {
               "id": "rightAlt",
               "text": "Alt",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "rightWin",
               "text": "Win",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "rightUtility",
               "text": "Util",
-              "type": "c-1-5"
+              "size": "1.5"
             },
             {
               "id": "rightCtrl",
               "text": "Ctrl",
-              "type": "c-1-5"
+              "size": "1.5"
             }
           ]
         }
@@ -474,17 +474,17 @@
             {
               "id": "insert",
               "text": "Insert",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "home",
               "text": "Home",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "pgUp",
               "text": "Page\nUp",
-              "type": "standard"
+              "size": "1"
             }
           ]
         },
@@ -494,17 +494,17 @@
             {
               "id": "delete",
               "text": "Delete",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "end",
               "text": "End",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "pgDown",
               "text": "Page\nDown",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }
@@ -522,7 +522,7 @@
             {
               "id": "up",
               "text": "↑",
-              "type": "standard"
+              "size": "1"
             }
           ]
         },
@@ -532,17 +532,17 @@
             {
               "id": "left",
               "text": "←",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "down",
               "text": "↓",
-              "type": "standard"
+              "size": "1"
             },
             {
               "id": "right",
               "text": "→",
-              "type": "standard"
+              "size": "1"
             }
           ]
         }

@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .key.bg-color-grey-900(:class='[keyValue.type]')
+  .key.bg-color-grey-900(:style='keyStyle')
     span {{keyValue.text}}
 </template>
 
@@ -10,6 +10,15 @@ export default {
   data () {
     return {
     }
+  },
+  computed: {
+    keyStyle () {
+      const styleObject = {}
+
+      styleObject.width = `${this.keyValue.size * this.$keycapSize}px`
+
+      return styleObject;
+    },
   },
   props: ['keyValue'],
 }
@@ -27,31 +36,6 @@ export default {
   border-radius: (.075 * $keycap-size);
   user-select: none;
   white-space: pre-line;
-}
-
-.double {
-  width: 2 * $keycap-size;
-}
-
-.c-1-5 {
-  width: 1.5 * $keycap-size;
-}
-
-.c-1-75 {
-  width: 1.75 * $keycap-size;
-}
-
-.c-2-25 {
-  width: 2.25 * $keycap-size;
-}
-
-.c-2-75 {
-  width: 2.75 * $keycap-size;
-}
-
-
-.space {
-  width: 6.25 * $keycap-size;
 }
 
 </style>
