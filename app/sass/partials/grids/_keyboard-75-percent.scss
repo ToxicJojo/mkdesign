@@ -1,4 +1,4 @@
-.keyboard-60-percent {
+.keyboard-75-percent {
   display: grid;
   grid-template-columns: $keycap-size $keycap-size (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.25 * $keycap-size) (3 * $keycap-size);
   grid-template-rows: $keycap-size (.5 * $keycap-size) (2 * $keycap-size) $keycap-size (2 * $keycap-size);

@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .keyboard-60-percent
+  .keyboard-75-percent
 
     KeyboardBlock(v-for='block in keyboard.blocks' :key='block.name' :block='block')
 
@@ -7,7 +7,6 @@
 
 <script>
 import KeyboardBlock from './KeyboardBlock.vue'
-import keyboard from '../../data/keyboard-75-percent.json'
 
 export default {
   name: 'Keyboard',
