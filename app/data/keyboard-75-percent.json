@@ -1,0 +1,552 @@
+{
+  "blocks": [
+    {
+      "name": "escape",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "escape",
+              "text": "Esc",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "functionkeys1",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "f1",
+              "text": "F1",
+              "type": "standard"
+            },
+            {
+              "id": "f2",
+              "text": "F2",
+              "type": "standard"
+            },
+            {
+              "id": "f3",
+              "text": "F3",
+              "type": "standard"
+            },
+            {
+              "id": "f4",
+              "text": "F4",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "functionkeys2",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "f5",
+              "text": "F5",
+              "type": "standard"
+            },
+            {
+              "id": "f6",
+              "text": "F6",
+              "type": "standard"
+            },
+            {
+              "id": "f7",
+              "text": "F7",
+              "type": "standard"
+            },
+            {
+              "id": "f8",
+              "text": "F8",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "functionkeys3",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "f9",
+              "text": "F9",
+              "type": "standard"
+            },
+            {
+              "id": "f10",
+              "text": "F10",
+              "type": "standard"
+            },
+            {
+              "id": "f11",
+              "text": "F11",
+              "type": "standard"
+            },
+            {
+              "id": "f12",
+              "text": "F12",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "utility1",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "printScreen",
+              "text": "prtScr",
+              "type": "standard"
+            },
+            {
+              "id": "scrollLock",
+              "text": "srcLk",
+              "type": "standard"
+            },
+            {
+              "id": "pause",
+              "text": "Pause",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "tilde",
+              "text": "~\n`",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow1",
+              "text": "1\n!",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow2",
+              "text": "2\n@",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow3",
+              "text": "3\n#",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow4",
+              "text": "4\n$",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow5",
+              "text": "5\n%",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow6",
+              "text": "6\n^",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow7",
+              "text": "7\n&",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow8",
+              "text": "8\n*",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow9",
+              "text": "9\n(",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow0",
+              "text": "0\n)",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow-",
+              "text": "-\n_",
+              "type": "standard"
+            },
+            {
+              "id": "numberRow=",
+              "text": "=\n+",
+              "type": "standard"
+            },
+            {
+              "id": "backspace",
+              "text": "Backspace",
+              "type": "double"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "keys": [
+            {
+              "id": "tab",
+              "text": "Tab",
+              "type": "c-1-5"
+            },
+            {
+              "id": "q",
+              "text": "Q",
+              "type": "standard"
+            },
+            {
+              "id": "w",
+              "text": "W",
+              "type": "standard"
+            },
+            {
+              "id": "e",
+              "text": "E",
+              "type": "standard"
+            },
+            {
+              "id": "r",
+              "text": "R",
+              "type": "standard"
+            },
+            {
+              "id": "t",
+              "text": "T",
+              "type": "standard"
+            },
+            {
+              "id": "y",
+              "text": "Y",
+              "type": "standard"
+            },
+            {
+              "id": "u",
+              "text": "U",
+              "type": "standard"
+            },
+            {
+              "id": "i",
+              "text": "I",
+              "type": "standard"
+            },
+            {
+              "id": "o",
+              "text": "O",
+              "type": "standard"
+            },
+            {
+              "id": "p",
+              "text": "P",
+              "type": "standard"
+            },
+            {
+              "id": "squareBracketOpen",
+              "text": "[\n{",
+              "type": "standard"
+            },
+            {
+              "id": "squareBracketClose",
+              "text": "]\n}",
+              "type": "standard"
+            },
+            {
+              "id": "backslash",
+              "text": "\\\n|",
+              "type": "c-1-5"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "keys": [
+            {
+              "id": "capsLock",
+              "text": "CapsLock",
+              "type": "c-1-75"
+            },
+            {
+              "id": "a",
+              "text": "A",
+              "type": "standard"
+            },
+            {
+              "id": "s",
+              "text": "S",
+              "type": "standard"
+            },
+            {
+              "id": "d",
+              "text": "D",
+              "type": "standard"
+            },
+            {
+              "id": "f",
+              "text": "F",
+              "type": "standard"
+            },
+            {
+              "id": "g",
+              "text": "G",
+              "type": "standard"
+            },
+            {
+              "id": "h",
+              "text": "H",
+              "type": "standard"
+            },
+            {
+              "id": "j",
+              "text": "J",
+              "type": "standard"
+            },
+            {
+              "id": "k",
+              "text": "K",
+              "type": "standard"
+            },
+            {
+              "id": "l",
+              "text": "L",
+              "type": "standard"
+            },
+            {
+              "id": "colon",
+              "text": ";\n:",
+              "type": "standard"
+            },
+            {
+              "id": "quotation",
+              "text": "'\n",
+              "type": "standard"
+            },
+            {
+              "id": "enter",
+              "text": "Enter",
+              "type": "c-2-25"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "keys": [
+            {
+              "id": "leftShift",
+              "text": "Shift",
+              "type": "c-2-25"
+            },
+            {
+              "id": "z",
+              "text": "Z",
+              "type": "standard"
+            },
+            {
+              "id": "x",
+              "text": "X",
+              "type": "standard"
+            },
+            {
+              "id": "c",
+              "text": "C",
+              "type": "standard"
+            },
+            {
+              "id": "v",
+              "text": "V",
+              "type": "standard"
+            },
+            {
+              "id": "b",
+              "text": "B",
+              "type": "standard"
+            },
+            {
+              "id": "n",
+              "text": "N",
+              "type": "standard"
+            },
+            {
+              "id": "m",
+              "text": "M",
+              "type": "standard"
+            },
+            {
+              "id": "comma",
+              "text": "<\n,",
+              "type": "standard"
+            },
+            {
+              "id": "dot",
+              "text": ">\n.",
+              "type": "standard"
+            },
+            {
+              "id": "slash",
+              "text": "?\n/",
+              "type": "standard"
+            },
+            {
+              "id": "rightShift",
+              "text": "Shift",
+              "type": "c-2-75"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "keys": [
+            {
+              "id": "leftCtrl",
+              "text": "Ctrl",
+              "type": "c-1-5"
+            },
+            {
+              "id": "leftWin",
+              "text": "Win",
+              "type": "c-1-5"
+            },
+            {
+              "id": "leftAlt",
+              "text": "Alt",
+              "type": "c-1-5"
+            },
+            {
+              "id": "space",
+              "text": "",
+              "type": "space"
+            },
+            {
+              "id": "rightAlt",
+              "text": "Alt",
+              "type": "c-1-5"
+            },
+            {
+              "id": "rightWin",
+              "text": "Win",
+              "type": "c-1-5"
+            },
+            {
+              "id": "rightUtility",
+              "text": "Util",
+              "type": "c-1-5"
+            },
+            {
+              "id": "rightCtrl",
+              "text": "Ctrl",
+              "type": "c-1-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "utility2",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "insert",
+              "text": "Insert",
+              "type": "standard"
+            },
+            {
+              "id": "home",
+              "text": "Home",
+              "type": "standard"
+            },
+            {
+              "id": "pgUp",
+              "text": "Page\nUp",
+              "type": "standard"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "keys": [
+            {
+              "id": "delete",
+              "text": "Delete",
+              "type": "standard"
+            },
+            {
+              "id": "end",
+              "text": "End",
+              "type": "standard"
+            },
+            {
+              "id": "pgDown",
+              "text": "Page\nDown",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "arrows",
+      "rows": [
+        {
+          "index": 0,
+          "offset": {
+            "left": 1
+          },
+          "keys": [
+            {
+              "id": "up",
+              "text": "↑",
+              "type": "standard"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "keys": [
+            {
+              "id": "left",
+              "text": "←",
+              "type": "standard"
+            },
+            {
+              "id": "down",
+              "text": "↓",
+              "type": "standard"
+            },
+            {
+              "id": "right",
+              "text": "→",
+              "type": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
