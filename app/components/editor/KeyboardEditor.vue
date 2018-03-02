@@ -1,6 +1,6 @@
 <template lang='pug'>
   .editor
-    Keyboard()
+    Keyboard(@keyClicked='handleKeyClick')
 </template>
 
 <script>
@@ -15,6 +15,11 @@ export default {
   },
   created () {
     this.$store.commit('editor/setKeyboard', testKeyboard)
+  },
+  methods: {
+    handleKeyClick (data) {
+      // Handle keyClick based on current mode
+    },
   },
   components: {
     Keyboard,

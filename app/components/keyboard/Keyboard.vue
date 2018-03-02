@@ -1,7 +1,7 @@
 <template lang='pug'>
   .keyboard-75-percent
 
-    KeyboardBlock(v-for='block in keyboard.blocks' :key='block.name' :block='block')
+    KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block')
 
 </template>
 
@@ -12,6 +12,11 @@ export default {
   name: 'Keyboard',
   data () {
     return {
+    }
+  },
+  methods: {
+    bubbleKeyClick (data) {
+      this.$emit('keyClicked', data)
     }
   },
   computed: {

@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .key.bg-color-grey-900(:style='keyStyle')
+  .key.bg-color-grey-900(@click='bubbleKeyClick' :style='keyStyle')
     span {{keyValue.text}}
 </template>
 
@@ -10,6 +10,11 @@ export default {
   data () {
     return {
     }
+  },
+  methods: {
+    bubbleKeyClick () {
+      this.$emit('keyClicked', { keyId: this.keyValue.id })
+    },
   },
   computed: {
     keyStyle () {

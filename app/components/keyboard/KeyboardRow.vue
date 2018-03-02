@@ -1,6 +1,6 @@
 <template lang='pug'>
   .row(:style='rowStyle')
-    KeyboardKey(v-for='key in row.keys' :key='key.id' :keyValue='key')
+    KeyboardKey(@keyClicked='bubbleKeyClick' v-for='key in row.keys' :key='key.id' :keyValue='key')
 </template>
 
 <script>
@@ -13,6 +13,12 @@ export default {
     return {
     }
   },
+  methods: {
+    bubbleKeyClick (data) {
+      data.rowIndex = this.row.index
+      this.$emit('keyClicked', data)
+    },
+  },
   computed: {
     rowStyle: function () {
       // Create a system to create these styles
@@ -23,7 +29,6 @@ export default {
           styleObject.marginLeft = `${this.row.offset.left * this.$keycapSize}px`
         }
       }
-
 
       return styleObject
     },
