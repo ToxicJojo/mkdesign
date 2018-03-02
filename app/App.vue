@@ -1,13 +1,13 @@
 <template lang='pug'>
   .app
     Navbar
-    Keyboard
+    KeyboardEditor
 </template>
 
 <script>
 
 import Navbar from './components/layout/Navbar.vue'
-import Keyboard from './components/keyboard/Keyboard.vue'
+import KeyboardEditor from './components/editor/KeyboardEditor.vue'
 
 export default {
   name: 'App',
@@ -17,7 +17,7 @@ export default {
   },
   components: {
     Navbar,
-    Keyboard,
+    KeyboardEditor,
   }
 }
 </script>

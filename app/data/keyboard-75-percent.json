@@ -143,62 +143,62 @@
             },
             {
               "id": "numberRow1",
-              "text": "1\n!",
+              "text": "!\n1",
               "type": "standard"
             },
             {
               "id": "numberRow2",
-              "text": "2\n@",
+              "text": "@\n2",
               "type": "standard"
             },
             {
               "id": "numberRow3",
-              "text": "3\n#",
+              "text": "#\n3",
               "type": "standard"
             },
             {
               "id": "numberRow4",
-              "text": "4\n$",
+              "text": "$\n4",
               "type": "standard"
             },
             {
               "id": "numberRow5",
-              "text": "5\n%",
+              "text": "%\n5",
               "type": "standard"
             },
             {
               "id": "numberRow6",
-              "text": "6\n^",
+              "text": "^\n6",
               "type": "standard"
             },
             {
               "id": "numberRow7",
-              "text": "7\n&",
+              "text": "&\n7",
               "type": "standard"
             },
             {
               "id": "numberRow8",
-              "text": "8\n*",
+              "text": "*\n8",
               "type": "standard"
             },
             {
               "id": "numberRow9",
-              "text": "9\n(",
+              "text": "(\n9",
               "type": "standard"
             },
             {
               "id": "numberRow0",
-              "text": "0\n)",
+              "text": ")\n0",
               "type": "standard"
             },
             {
               "id": "numberRow-",
-              "text": "-\n_",
+              "text": "_\n-",
               "type": "standard"
             },
             {
               "id": "numberRow=",
-              "text": "=\n+",
+              "text": "+\n=",
               "type": "standard"
             },
             {
