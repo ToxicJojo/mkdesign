@@ -1,8 +1,11 @@
 <template lang='pug'>
   .editor-wizard
+    LayoutWizard
 </template>
 
 <script>
+import LayoutWizard from './wizards/LayoutWizard.vue'
+
 export default {
 
   name: 'EditorWizard',
@@ -10,6 +13,9 @@ export default {
     return {
 
     }
+  },
+  components: {
+    LayoutWizard,
   }
 }
 </script>
@@ -20,6 +26,7 @@ export default {
   grid-area: wizard;
 
   border-bottom: 1px solid black;
+  padding: 20px;
 }
 
 </style>

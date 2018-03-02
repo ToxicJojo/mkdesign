@@ -1,7 +1,8 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const WebpackBuildNotifierPlugin = require('webpack-build-notifier');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const WebpackBuildNotifierPlugin = require('webpack-build-notifier')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports =  {
   entry: './app/index.js',
@@ -44,5 +45,11 @@ module.exports =  {
       title: "MKDesign Webpack Build",
       suppressSuccess: true
     }),
+    new CopyWebpackPlugin([
+      {
+        from: 'static/**/*',
+        to: '',
+      }
+    ]),
   ],
 }

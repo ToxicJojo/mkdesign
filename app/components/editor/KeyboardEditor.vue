@@ -2,7 +2,7 @@
   .editor
     EditorHistory
     EditorWizard
-    Keyboard(@keyClicked='handleKeyClick')
+    Keyboard(@keyClicked='handleKeyClick' v-if='keyboard' :keyboard='keyboard')
 </template>
 
 <script>
@@ -10,16 +10,16 @@ import Keyboard from '../keyboard/Keyboard.vue'
 import EditorHistory from './EditorHistory.vue'
 import EditorWizard from './EditorWizard.vue'
 
-import testKeyboard from '../../data/keyboard-75-percent.json'
-
 export default {
   name: 'KeyboardEditor',
   data () {
     return {
     }
   },
-  created () {
-    this.$store.commit('editor/setKeyboard', testKeyboard)
+  computed: {
+    keyboard () {
+      return this.$store.state.editor.currentKeyboard
+    }
   },
   methods: {
     handleKeyClick (data) {

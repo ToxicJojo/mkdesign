@@ -18,14 +18,10 @@ export default {
       this.$emit('keyClicked', data)
     }
   },
-  computed: {
-    keyboard () {
-      return this.$store.state.editor.currentKeyboard
-    }
-  },
   components: {
     KeyboardBlock,
-  }
+  },
+  props: ['keyboard']
 }
 </script>
 
