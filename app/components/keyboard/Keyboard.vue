@@ -1,6 +1,5 @@
 <template lang='pug'>
-  .keyboard-75-percent
-
+  .keyboard.keyboard-75-percent
     KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block')
 
 </template>
@@ -31,5 +30,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.keyboard {
+  grid-area: keyboard;
+}
 
 </style>
