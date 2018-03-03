@@ -1,6 +1,7 @@
 <template lang='pug'>
   .editor-wizard
-    LayoutWizard
+    transition(name='fade')
+      router-view
 </template>
 
 <script>
@@ -27,6 +28,15 @@ export default {
 
   border-bottom: 1px solid black;
   padding: 20px;
+}
+
+
+.fade-active, .fade-leave-active {
+  transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 </style>

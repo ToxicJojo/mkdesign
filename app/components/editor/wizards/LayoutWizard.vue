@@ -33,6 +33,9 @@ export default {
           picture_url: layout.picture_url,
         }
       })
+
+      this.$router.push('board')
+
     },
   },
 }

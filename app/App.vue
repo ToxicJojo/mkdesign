@@ -1,7 +1,7 @@
 <template lang='pug'>
   .app
     Navbar
-    KeyboardEditor
+    router-view
 </template>
 
 <script>
