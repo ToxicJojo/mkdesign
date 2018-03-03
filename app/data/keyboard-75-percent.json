@@ -3,6 +3,7 @@
   "description": "For people who don`t need keypads.",
   "picture_url": "static/img/layouts/75percent.png",
   "grid_name": "keyboard-75-percent",
+  "boardColor": "",
   "blocks": [
     {
       "name": "escape",

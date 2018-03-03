@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import KeyboarEditor from '../components/editor/KeyboardEditor.vue'
 import LayoutWizard from '../components/editor/wizards/LayoutWizard.vue'
+import BoardColorWizard from '../components/editor/wizards/BoardColorWizard.vue'
 
 Vue.use(Router)
 
@@ -23,7 +24,7 @@ const router = new Router({
         },
         {
           path: 'board',
-          component: null,
+          component: BoardColorWizard,
         }
       ],
     },

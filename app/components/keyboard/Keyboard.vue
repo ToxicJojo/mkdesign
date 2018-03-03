@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .keyboard(:class='[keyboard.grid_name]')
+  .keyboard(:class='[keyboard.grid_name]' :style='keyboardStyle')
     KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block')
 
 </template>
@@ -16,7 +16,16 @@ export default {
   methods: {
     bubbleKeyClick (data) {
       this.$emit('keyClicked', data)
-    }
+    },
+  },
+  computed: {
+    keyboardStyle () {
+      const styleObject = {}
+
+      styleObject.backgroundColor = this.keyboard.boardColor
+
+      return styleObject
+    },
   },
   components: {
     KeyboardBlock,
@@ -29,6 +38,9 @@ export default {
 
 .keyboard {
   grid-area: keyboard;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
 }
 
 </style>

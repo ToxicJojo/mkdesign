@@ -1,6 +1,6 @@
 <template lang='pug'>
   .editor-wizard
-    transition(name='fade')
+    transition(name='fade' mode='out-in')
       router-view
 </template>
 
@@ -34,8 +34,8 @@ export default {
 .fade-active, .fade-leave-active {
   transition: opacity .3s ease;
 }
-.fade-enter, .fade-leave-to
-/* .component-fade-leave-active below version 2.1.8 */ {
+
+.fade-enter {
   opacity: 0;
 }
 

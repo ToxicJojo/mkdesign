@@ -43,6 +43,8 @@ export default {
   grid-template-areas:
     "history wizard"
     "history keyboard";
+
+  justify-items: center;
 }
 
 </style>

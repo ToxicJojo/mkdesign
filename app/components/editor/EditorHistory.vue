@@ -8,6 +8,8 @@
 
 <script>
 import LayoutHistory from './history/LayoutHistory.vue'
+import BoardColorHistory from './history/BoardColorHistory.vue'
+
 
 export default {
 
@@ -23,6 +25,7 @@ export default {
   },
   components: {
     layout: LayoutHistory,
+    boardColor: BoardColorHistory,
   }
 }
 </script>
