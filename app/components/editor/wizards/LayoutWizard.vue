@@ -25,6 +25,14 @@ export default {
   methods: {
     selectLayout (layout) {
       this.$store.commit('editor/setKeyboard', layout)
+      this.$store.commit('editor/addToHistory', {
+        type: 'layout',
+        data: {
+          name: layout.name,
+          description: layout.description,
+          picture_url: layout.picture_url,
+        }
+      })
     },
   },
 }
