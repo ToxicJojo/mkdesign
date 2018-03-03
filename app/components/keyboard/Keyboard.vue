@@ -24,6 +24,9 @@ export default {
 
       styleObject.backgroundColor = this.keyboard.boardColor
 
+      styleObject.fontFamily = this.keyboard.font.font
+      styleObject.fontSize = this.keyboard.font.fontSize
+
       return styleObject
     },
   },

@@ -9,7 +9,7 @@
 <script>
 import LayoutHistory from './history/LayoutHistory.vue'
 import BoardColorHistory from './history/BoardColorHistory.vue'
-
+import FontHistory from './history/FontHistory.vue'
 
 export default {
 
@@ -26,6 +26,7 @@ export default {
   components: {
     layout: LayoutHistory,
     boardColor: BoardColorHistory,
+    font: FontHistory,
   }
 }
 </script>
@@ -35,6 +36,7 @@ export default {
 .editor-history {
   grid-area: history;
   border-right: 1px solid black;
+  width: 100%;
 
   display: flex;
   flex-direction: column;

@@ -1,7 +1,7 @@
 @import 'variables/all';
 
 // Load and set the custom font
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans');
 $family-sans-serif: 'Montserrat', sans-serif;
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";

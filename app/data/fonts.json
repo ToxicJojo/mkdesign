@@ -1,0 +1,23 @@
+[
+  {
+    "font": "_blank",
+    "name": "Blank",
+    "fontSize": "0px",
+    "description": "Who needs labels?"
+  },
+  {
+    "font": "Helvetica",
+    "name": "Helvetica",
+    "description": "The classic."
+  },
+  {
+    "font": "Roboto",
+    "name": "Roboto",
+    "description": "Material Design!"
+  },
+  {
+    "font": "Montserrat",
+    "name": "Montserrat",
+    "description": "This text is Montserrat"
+  }
+]

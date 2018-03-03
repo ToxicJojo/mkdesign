@@ -25,6 +25,8 @@ export default {
           color,
         }
       })
+
+      this.$router.push('font')
     }
   },
   components: {

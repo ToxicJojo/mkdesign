@@ -41,6 +41,7 @@ export default {
   border-radius: (.075 * $keycap-size);
   user-select: none;
   white-space: pre-line;
+  color: #eee;
 }
 
 </style>

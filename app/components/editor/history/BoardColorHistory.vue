@@ -18,8 +18,8 @@ export default {
 <style lang="scss" scoped>
 
 .color-block {
-  width: 128px;
-  height: 128px;
+  width: 100px;
+  height: 100px;
 }
 
 </style>
