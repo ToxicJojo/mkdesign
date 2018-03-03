@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .keyboard.keyboard-75-percent
+  .keyboard(:class='[keyboard.grid_name]')
     KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block')
 
 </template>
