@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .board-color-history.card
+  .history-card
     span Board Color
     .color-block(:style='{ "background-color": data.color }')
 </template>
@@ -16,24 +16,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.board-color-history {
-  padding: 10px;
-  animation: slide-in .3s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@keyframes slide-in {
-  0% {
-    transform: translateX(150px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
 
 .color-block {
   width: 128px;
