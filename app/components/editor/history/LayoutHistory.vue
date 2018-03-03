@@ -20,6 +20,16 @@ export default {
 
 .layout-history {
   padding: 10px;
+  animation: slide-in .3s;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 </style>

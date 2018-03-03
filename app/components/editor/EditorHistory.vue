@@ -1,7 +1,8 @@
 <template lang='pug'>
   .editor-history
     template(v-for='historyPoint in history')
-      component(:is='historyPoint.type' :data='historyPoint.data')
+      transition(name='bounce')
+        component(:is='historyPoint.type' :data='historyPoint.data')
 
 </template>
 
@@ -34,6 +35,8 @@ export default {
 
   display: flex;
   flex-direction: column;
+
+  overflow: hidden;
 }
 
 </style>
