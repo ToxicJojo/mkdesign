@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .history-card
+  .history-card(@click='gotoWizard')
     .layout-name {{data.name}} - Layout
     img(:src='data.picture_url')
 </template>
@@ -10,6 +10,11 @@ export default {
   name: 'LayoutHistory',
   data () {
     return {
+    }
+  },
+  methods: {
+    gotoWizard () {
+      this.$router.push('layout')
     }
   },
   props: ['data']

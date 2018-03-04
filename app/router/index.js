@@ -21,14 +21,17 @@ const router = new Router({
         },
         {
           path: 'layout',
+          name: 'layout',
           component: LayoutWizard,
         },
         {
           path: 'board',
+          name: 'board',
           component: BoardColorWizard,
         },
         {
           path: 'font',
+          name: 'font',
           component: FontWizard,
         }
       ],

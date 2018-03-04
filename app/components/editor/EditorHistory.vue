@@ -1,7 +1,7 @@
 <template lang='pug'>
   .editor-history
-    template(v-for='historyPoint in history')
-      transition(name='bounce')
+    template(v-for='(historyPoint, index) in history')
+      .history-wrapper(@click='gotoWizard(historyPoint.type, index)')
         component(:is='historyPoint.type' :data='historyPoint.data')
 
 </template>
@@ -23,9 +23,19 @@ export default {
       return this.$store.state.editor.history
     },
   },
+  methods: {
+    gotoWizard (path, index) {
+      this.$router.push({
+        path,
+        query: {
+          index,
+        },
+      })
+    }
+  },
   components: {
     layout: LayoutHistory,
-    boardColor: BoardColorHistory,
+    board: BoardColorHistory,
     font: FontHistory,
   }
 }

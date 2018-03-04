@@ -13,6 +13,7 @@
 
 <script>
 import fonts from '../../../data/fonts.json'
+import WizardMixin from './wizard-mixin'
 
 import KeyboardKey from '../../keyboard/KeyboardKey.vue'
 
@@ -33,19 +34,25 @@ export default {
   methods: {
     selectFont (font) {
       this.$store.commit('editor/setFont', font)
-      this.$store.commit('editor/addToHistory', {
+
+      const historyData = {
         type: 'font',
         data: {
           font,
         },
-      })
+      }
 
-      this.$router.push('')
+      this.addToHistory(historyData)
+
+      this.gotoNextWizard('')
     }
   },
   components: {
     KeyboardKey,
-  }
+  },
+  mixins: [
+    WizardMixin,
+  ],
 }
 </script>
 

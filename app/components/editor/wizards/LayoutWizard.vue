@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import WizardMixin from './wizard-mixin'
+
 export default {
 
   name: 'LayoutWizard',
@@ -25,19 +27,24 @@ export default {
   methods: {
     selectLayout (layout) {
       this.$store.commit('editor/setKeyboard', layout)
-      this.$store.commit('editor/addToHistory', {
+
+      const historyData = {
         type: 'layout',
         data: {
           name: layout.name,
           description: layout.description,
           picture_url: layout.picture_url,
         }
-      })
+      }
 
-      this.$router.push('board')
+      this.addToHistory(historyData)
 
+      this.gotoNextWizard('board')
     },
   },
+  mixins: [
+    WizardMixin,
+  ],
 }
 </script>
 

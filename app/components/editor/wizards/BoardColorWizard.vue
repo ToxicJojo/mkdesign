@@ -6,6 +6,7 @@
 
 <script>
 import ColorPicker from '../util/ColorPicker.vue'
+import WizardMixin from './wizard-mixin'
 
 
 export default {
@@ -17,21 +18,26 @@ export default {
   },
   methods: {
     selectColor(color) {
-      // TODO board color commit
       this.$store.commit('editor/setBoardColor', color)
-      this.$store.commit('editor/addToHistory', {
-        type: 'boardColor',
+
+      const historyData = {
+        type: 'board',
         data: {
           color,
         }
-      })
+      }
 
-      this.$router.push('font')
+      this.addToHistory(historyData)
+
+      this.gotoNextWizard('font')
     }
   },
   components: {
     ColorPicker,
-  }
+  },
+  mixins: [
+    WizardMixin,
+  ],
 }
 </script>
 
