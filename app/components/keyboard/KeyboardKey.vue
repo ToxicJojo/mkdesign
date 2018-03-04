@@ -42,6 +42,7 @@ export default {
   user-select: none;
   white-space: pre-line;
   color: #eee;
+  padding-left: 4px;
 }
 
 </style>
