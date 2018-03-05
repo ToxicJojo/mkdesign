@@ -1,7 +1,7 @@
 <template lang='pug'>
   nav.navbar.is-primary
     .navbar-brand
-      a.navbar-item(href='#') MKDesign
+      a.navbar-item(href='#/editor/layout') MKDesign
 </template>
 
 <script>

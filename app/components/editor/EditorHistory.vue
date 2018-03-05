@@ -10,6 +10,7 @@
 import LayoutHistory from './history/LayoutHistory.vue'
 import BoardColorHistory from './history/BoardColorHistory.vue'
 import FontHistory from './history/FontHistory.vue'
+import KeycapColorHistory from './history/KeycapColorHistory.vue'
 
 export default {
 
@@ -37,6 +38,7 @@ export default {
     layout: LayoutHistory,
     board: BoardColorHistory,
     font: FontHistory,
+    keycapColor: KeycapColorHistory,
   }
 }
 </script>
@@ -51,7 +53,8 @@ export default {
   display: flex;
   flex-direction: column;
 
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 </style>

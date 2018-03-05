@@ -4,7 +4,12 @@
   "picture_url": "static/img/layouts/75percent.png",
   "grid_name": "keyboard-75-percent",
   "boardColor": "",
-  "font": {},
+  "font": {
+    "font": "_blank",
+    "name": "Blank",
+    "fontSize": "0px",
+    "description": "Who needs labels?"
+  },
   "blocks": [
     {
       "name": "escape",
@@ -15,7 +20,8 @@
             {
               "id": "escape",
               "text": "Esc",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -30,22 +36,26 @@
             {
               "id": "f1",
               "text": "F1",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f2",
               "text": "F2",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f3",
               "text": "F3",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f4",
               "text": "F4",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -60,22 +70,26 @@
             {
               "id": "f5",
               "text": "F5",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f6",
               "text": "F6",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f7",
               "text": "F7",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f8",
               "text": "F8",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -90,22 +104,26 @@
             {
               "id": "f9",
               "text": "F9",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f10",
               "text": "F10",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f11",
               "text": "F11",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f12",
               "text": "F12",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -120,17 +138,20 @@
             {
               "id": "printScreen",
               "text": "prtScr",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "scrollLock",
               "text": "srcLk",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "pause",
               "text": "Pause",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -145,72 +166,86 @@
             {
               "id": "tilde",
               "text": "~\n`",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow1",
               "text": "!\n1",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow2",
               "text": "@\n2",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow3",
               "text": "#\n3",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow4",
               "text": "$\n4",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow5",
               "text": "%\n5",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow6",
               "text": "^\n6",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow7",
               "text": "&\n7",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow8",
               "text": "*\n8",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow9",
               "text": "(\n9",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow0",
               "text": ")\n0",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow-",
               "text": "_\n-",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "numberRow=",
               "text": "+\n=",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "backspace",
               "text": "Backspace",
-              "size": "2"
+              "size": "2",
+              "color": "#212121"
             }
           ]
         },
@@ -220,72 +255,86 @@
             {
               "id": "tab",
               "text": "Tab",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "q",
               "text": "Q",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "w",
               "text": "W",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "e",
               "text": "E",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "r",
               "text": "R",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "t",
               "text": "T",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "y",
               "text": "Y",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "u",
               "text": "U",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "i",
               "text": "I",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "o",
               "text": "O",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "p",
               "text": "P",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "squareBracketOpen",
               "text": "[\n{",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "squareBracketClose",
               "text": "]\n}",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "backslash",
               "text": "\\\n|",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             }
           ]
         },
@@ -295,67 +344,80 @@
             {
               "id": "capsLock",
               "text": "CapsLock",
-              "size": "1.75"
+              "size": "1.75",
+              "color": "#212121"
             },
             {
               "id": "a",
               "text": "A",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "s",
               "text": "S",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "d",
               "text": "D",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "f",
               "text": "F",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "g",
               "text": "G",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "h",
               "text": "H",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "j",
               "text": "J",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "k",
               "text": "K",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "l",
               "text": "L",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "colon",
               "text": ";\n:",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "quotation",
               "text": "'\n",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "enter",
               "text": "Enter",
-              "size": "2.25"
+              "size": "2.25",
+              "color": "#212121"
             }
           ]
         },
@@ -365,62 +427,74 @@
             {
               "id": "leftShift",
               "text": "Shift",
-              "size": "2.25"
+              "size": "2.25",
+              "color": "#212121"
             },
             {
               "id": "z",
               "text": "Z",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "x",
               "text": "X",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "c",
               "text": "C",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "v",
               "text": "V",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "b",
               "text": "B",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "n",
               "text": "N",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "m",
               "text": "M",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "comma",
               "text": "<\n,",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "dot",
               "text": ">\n.",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "slash",
               "text": "?\n/",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "rightShift",
               "text": "Shift",
-              "size": "2.75"
+              "size": "2.75",
+              "color": "#212121"
             }
           ]
         },
@@ -430,42 +504,50 @@
             {
               "id": "leftCtrl",
               "text": "Ctrl",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "leftWin",
               "text": "Win",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "leftAlt",
               "text": "Alt",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "space",
               "text": "",
-              "size": "6.25"
+              "size": "6.25",
+              "color": "#212121"
             },
             {
               "id": "rightAlt",
               "text": "Alt",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "rightWin",
               "text": "Win",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "rightUtility",
               "text": "Util",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             },
             {
               "id": "rightCtrl",
               "text": "Ctrl",
-              "size": "1.5"
+              "size": "1.5",
+              "color": "#212121"
             }
           ]
         }
@@ -480,17 +562,20 @@
             {
               "id": "insert",
               "text": "Insert",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "home",
               "text": "Home",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "pgUp",
               "text": "Page\nUp",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         },
@@ -500,17 +585,20 @@
             {
               "id": "delete",
               "text": "Delete",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "end",
               "text": "End",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "pgDown",
               "text": "Page\nDown",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }
@@ -528,7 +616,8 @@
             {
               "id": "up",
               "text": "↑",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         },
@@ -538,17 +627,20 @@
             {
               "id": "left",
               "text": "←",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "down",
               "text": "↓",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             },
             {
               "id": "right",
               "text": "→",
-              "size": "1"
+              "size": "1",
+              "color": "#212121"
             }
           ]
         }

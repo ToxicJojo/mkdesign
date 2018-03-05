@@ -44,7 +44,7 @@ export default {
 
       this.addToHistory(historyData)
 
-      this.gotoNextWizard('')
+      this.gotoNextWizard('keycapColor')
     }
   },
   components: {

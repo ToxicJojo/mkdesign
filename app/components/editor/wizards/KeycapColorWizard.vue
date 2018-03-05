@@ -1,6 +1,6 @@
 <template lang='pug'>
   .board-color-wizard
-    span Choose a board color
+    span Choose a keycap color
     ColorPicker(@colorPicked='selectColor')
 </template>
 
@@ -8,19 +8,23 @@
 import ColorPicker from '../util/ColorPicker.vue'
 import WizardMixin from './wizard-mixin'
 
-
 export default {
-  name: 'BoardColorWizard',
+  name: 'KeycapColorWizard',
   data () {
     return {
     }
   },
   methods: {
     selectColor(color) {
-      this.$store.commit('editor/setBoardColor', color)
+
+      const keyData = {
+        color,
+      }
+
+      this.$store.commit('editor/updateAllKeys', keyData)
 
       const historyData = {
-        type: 'board',
+        type: 'keycapColor',
         data: {
           color,
         }
@@ -28,7 +32,7 @@ export default {
 
       this.addToHistory(historyData)
 
-      this.gotoNextWizard('font')
+      this.gotoNextWizard('')
     }
   },
   components: {
@@ -41,9 +45,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.board-color-wizard {
-  text-align: center;
-}
-
 </style>
