@@ -44,6 +44,8 @@ export default {
   margin: 20px;
   justify-content: center;
   align-content: center;
+
+  transition: background-color .3s;
 }
 
 </style>
