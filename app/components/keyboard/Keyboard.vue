@@ -27,6 +27,8 @@ export default {
       styleObject.fontFamily = this.keyboard.font.font
       styleObject.fontSize = this.keyboard.font.fontSize
 
+      styleObject.color = this.keyboard.fontColor
+
       return styleObject
     },
   },
@@ -45,7 +47,7 @@ export default {
   justify-content: center;
   align-content: center;
 
-  transition: background-color .3s;
+  transition: background-color .3s, color .3s;
 }
 
 </style>

@@ -6,6 +6,7 @@ import LayoutWizard from '../components/editor/wizards/LayoutWizard.vue'
 import BoardColorWizard from '../components/editor/wizards/BoardColorWizard.vue'
 import FontWizard from '../components/editor/wizards/FontWizard.vue'
 import KeycapColorWizard from '../components/editor/wizards/KeycapColorWizard.vue'
+import FontColorWizard from '../components/editor/wizards/FontColorWizard.vue'
 
 Vue.use(Router)
 
@@ -39,6 +40,11 @@ const router = new Router({
           path: 'keycapColor',
           name: 'keycapColor',
           component: KeycapColorWizard,
+        },
+        {
+          path: 'fontColor',
+          name: 'fontColor',
+          component: FontColorWizard,
         }
       ],
     },

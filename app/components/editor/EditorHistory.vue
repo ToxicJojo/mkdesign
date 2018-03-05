@@ -11,6 +11,7 @@ import LayoutHistory from './history/LayoutHistory.vue'
 import BoardColorHistory from './history/BoardColorHistory.vue'
 import FontHistory from './history/FontHistory.vue'
 import KeycapColorHistory from './history/KeycapColorHistory.vue'
+import FontColorHistory from './history/FontColorHistory.vue'
 
 export default {
 
@@ -39,6 +40,7 @@ export default {
     board: BoardColorHistory,
     font: FontHistory,
     keycapColor: KeycapColorHistory,
+    fontColor: FontColorHistory,
   }
 }
 </script>

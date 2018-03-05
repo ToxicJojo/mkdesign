@@ -55,8 +55,8 @@ export default {
   border-radius: (.075 * $keycap-size);
   user-select: none;
   white-space: pre-line;
-  color: #eee;
   padding-left: 4px;
+  padding-right: 4px;
 
   transition: background-color .3s;
 

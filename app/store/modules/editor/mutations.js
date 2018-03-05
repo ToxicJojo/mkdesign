@@ -8,6 +8,9 @@ const mutations = {
   setFont (state, font) {
     state.currentKeyboard.font = font
   },
+  setFontColor (state, color) {
+    state.currentKeyboard.fontColor = color
+  },
   updateKey (state, data) {
     state.currentKeyboard.blocks.forEach((block, blockIndex) => {
       if (block.name === data.block) {

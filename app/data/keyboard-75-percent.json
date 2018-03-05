@@ -4,6 +4,7 @@
   "picture_url": "static/img/layouts/75percent.png",
   "grid_name": "keyboard-75-percent",
   "boardColor": "",
+  "fontColor": "",
   "font": {
     "font": "_blank",
     "name": "Blank",
