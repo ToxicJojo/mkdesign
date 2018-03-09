@@ -23,7 +23,16 @@ export default {
   },
   methods: {
     handleKeyClick (data) {
-      // Handle keyClick based on current mode
+      const mode = this.$store.state.editor.mode
+
+      if (mode.type === 'detailKeycapColor') {
+        data.keyData = {
+          keyConfig: {
+            color: mode.data.color,
+          },
+        }
+        this.$store.commit('editor/updateKey', data)
+      }
     },
   },
   components: {

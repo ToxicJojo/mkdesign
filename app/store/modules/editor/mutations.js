@@ -21,11 +21,11 @@ const mutations = {
   },
   updateKey (state, data) {
     state.currentKeyboard.blocks.forEach((block, blockIndex) => {
-      if (block.name === data.block) {
+      if (block.name === data.blockName) {
         block.rows.forEach((row, rowIndex) => {
-          if (row.index === data.row) {
+          if (row.index === data.rowIndex) {
             row.keys.forEach((key, keyIndex) => {
-              if (key.id === data.key) {
+              if (key.id === data.keyId) {
                 for (const name in data.keyData) {
                   if (data.keyData.hasOwnProperty(name)) {
                     state.currentKeyboard.blocks[blockIndex].rows[rowIndex].keys[keyIndex][name] = data.keyData[name]
@@ -62,7 +62,10 @@ const mutations = {
   },
   setNewestWizard (state, wizardName) {
     state.newestWizard = wizardName
-  }
+  },
+  setMode (state, mode) {
+    state.mode = mode
+  },
 }
 
 export default mutations
