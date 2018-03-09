@@ -1,8 +1,7 @@
 <template lang='pug'>
   .history-card
-    span Font - {{historyData.font.name}}
+    span Placement - {{historyData.placement.name}}
     KeyboardKey(:keyValue='keyValue' :defaultKeyConfig='defaultKeyConfig')
-
 </template>
 
 <script>
@@ -11,7 +10,7 @@ import defaultKeyConfig from '../../../data/default-key-config.json'
 
 export default {
 
-  name: 'FontHistory',
+  name: 'LegendPlacementHistory',
   data () {
     return {
       defaultKeyConfig,
@@ -19,12 +18,17 @@ export default {
   },
   computed: {
     keyValue () {
-      return {
-        text: 'Q',
+      const keyData = {
+        text: 'L',
         keyConfig: {
-          font: this.historyData.font,
+          legendPlacement: this.historyData.placement.legendPlacement,
+          font: {
+            fontSize: '16px',
+          },
         },
       }
+
+      return keyData
     },
   },
   props: ['historyData'],

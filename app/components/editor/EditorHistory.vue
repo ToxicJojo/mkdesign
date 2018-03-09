@@ -2,7 +2,7 @@
   .editor-history
     template(v-for='(historyPoint, index) in history')
       .history-wrapper(@click='gotoWizard(historyPoint.type, index)')
-        component(:is='historyPoint.type' :data='historyPoint.data')
+        component(:is='historyPoint.type' :historyData='historyPoint.data')
 
 </template>
 
@@ -12,6 +12,7 @@ import BoardColorHistory from './history/BoardColorHistory.vue'
 import FontHistory from './history/FontHistory.vue'
 import KeycapColorHistory from './history/KeycapColorHistory.vue'
 import FontColorHistory from './history/FontColorHistory.vue'
+import LegendPlacementHistory from './history/LegendPlacementHistory.vue'
 
 export default {
 
@@ -41,6 +42,7 @@ export default {
     font: FontHistory,
     keycapColor: KeycapColorHistory,
     fontColor: FontColorHistory,
+    legendPlacement: LegendPlacementHistory,
   }
 }
 </script>

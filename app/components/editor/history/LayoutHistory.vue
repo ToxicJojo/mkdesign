@@ -1,7 +1,7 @@
 <template lang='pug'>
   .history-card(@click='gotoWizard')
-    .layout-name {{data.name}} - Layout
-    img(:src='data.picture_url')
+    .layout-name {{historyData.name}} - Layout
+    img(:src='historyData.picture_url')
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
       this.$router.push('layout')
     }
   },
-  props: ['data']
+  props: ['historyData']
 }
 </script>
 

@@ -13,7 +13,6 @@ export default {
   name: 'FontColorWizard',
   data () {
     return {
-
     }
   },
   methods: {
@@ -29,7 +28,7 @@ export default {
 
       this.addToHistory(historyData)
 
-      this.gotoNextWizard('')
+      this.gotoNextWizard('legendPlacement')
     }
   },
   components: {

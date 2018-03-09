@@ -1,7 +1,6 @@
 <template lang='pug'>
   .keyboard(:class='[keyboard.grid_name]' :style='keyboardStyle')
-    KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block')
-
+    KeyboardBlock(@keyClicked='bubbleKeyClick' v-for='block in keyboard.blocks' :key='block.name' :block='block' :defaultKeyConfig='keyboard.defaultKeyConfig')
 </template>
 
 <script>
@@ -23,11 +22,6 @@ export default {
       const styleObject = {}
 
       styleObject.backgroundColor = this.keyboard.boardColor
-
-      styleObject.fontFamily = this.keyboard.font.font
-      styleObject.fontSize = this.keyboard.font.fontSize
-
-      styleObject.color = this.keyboard.fontColor
 
       return styleObject
     },

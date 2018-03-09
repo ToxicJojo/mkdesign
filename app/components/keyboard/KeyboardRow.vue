@@ -1,6 +1,6 @@
 <template lang='pug'>
   .row(:style='rowStyle')
-    KeyboardKey(@keyClicked='bubbleKeyClick' v-for='key in row.keys' :key='key.id' :keyValue='key')
+    KeyboardKey(@keyClicked='bubbleKeyClick' v-for='key in row.keys' :key='key.id' :keyValue='key' :defaultKeyConfig='defaultKeyConfig')
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
       return styleObject
     },
   },
-  props: ['row'],
+  props: ['row', 'defaultKeyConfig'],
   components: {
     KeyboardKey,
   }

@@ -1,7 +1,7 @@
 <template lang='pug'>
   .history-card
     span Font Color
-    .color-block(:style='{ "background-color": data.color }')
+    .color-block(:style='{ "background-color": historyData.color }')
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
     return {
     }
   },
-  props: ['data'],
+  props: ['historyData'],
 }
 </script>
 

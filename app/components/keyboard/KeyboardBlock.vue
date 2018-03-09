@@ -1,6 +1,6 @@
 <template lang='pug'>
   .block(v-bind:style='{ "grid-area": block.name }')
-    KeyboardRow(@keyClicked='bubbleKeyClick' v-for='row in block.rows' :key='row.index' :row='row')
+    KeyboardRow(@keyClicked='bubbleKeyClick' v-for='row in block.rows' :key='row.index' :row='row' :defaultKeyConfig='defaultKeyConfig')
 
 </template>
 
@@ -20,7 +20,7 @@ export default {
       this.$emit('keyClicked', data)
     },
   },
-  props: ['block'],
+  props: ['block', 'defaultKeyConfig'],
   components: {
     KeyboardRow,
   }
@@ -28,4 +28,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 </style>

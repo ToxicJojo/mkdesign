@@ -1,6 +1,6 @@
 [
   {
-    "font": "_blank",
+    "font": "",
     "name": "Blank",
     "fontSize": "0px",
     "description": "Who needs labels?"
@@ -8,16 +8,19 @@
   {
     "font": "Helvetica",
     "name": "Helvetica",
+    "fontSize": "16px",
     "description": "The classic."
   },
   {
     "font": "Roboto",
     "name": "Roboto",
+    "fontSize": "16px",
     "description": "Material Design!"
   },
   {
     "font": "Montserrat",
     "name": "Montserrat",
+    "fontSize": "16px",
     "description": "This text is Montserrat"
   }
 ]

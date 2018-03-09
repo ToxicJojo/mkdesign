@@ -4,6 +4,11 @@
 </template>
 
 <script>
+import removeNullProperties from '../../util/remove-null-properties'
+import mergeObjects from '../../util/merge-objects'
+
+import basicKeyConfig from '../../data/default-key-config.json'
+
 export default {
 
   name: 'KeyboardKey',
@@ -31,15 +36,38 @@ export default {
     keyStyle () {
       const styleObject = {}
 
+      const keyConfig = this.mergedKeyConfig
+
       styleObject.width = `${this.keyValue.size * this.$keycapSize}px`
 
-      styleObject.backgroundColor = this.keyValue.color
-      styleObject.borderColor = this.shadeColor2(this.keyValue.color, -.5)
+      styleObject.backgroundColor = keyConfig.color
+      styleObject.borderColor = this.shadeColor2(keyConfig.color, -.5)
 
+      styleObject.color = keyConfig.font.fontColor
+      styleObject.fontSize = keyConfig.font.fontSize
+      styleObject.fontFamily = keyConfig.font.font
+
+      if (keyConfig.legendPlacement) {
+        styleObject.alignItems = keyConfig.legendPlacement.vertical
+        styleObject.justifyContent = keyConfig.legendPlacement.horizontal
+      }
+      
       return styleObject;
     },
+    mergedKeyConfig () {
+      if (this.defaultKeyConfig) {
+        //const defaultKeyConfig = Object.assign({}, this.defaultKeyConfig)
+        const defaultKeyConfigCopy = JSON.parse(JSON.stringify(this.defaultKeyConfig))
+      
+        mergeObjects(defaultKeyConfigCopy, this.keyValue.keyConfig)
+
+        return defaultKeyConfigCopy
+      } else {
+        return this.keyValue.keyConfig
+      }
+    },
   },
-  props: ['keyValue'],
+  props: ['keyValue', 'defaultKeyConfig'],
 }
 </script>
 
@@ -58,6 +86,11 @@ export default {
   padding-left: 4px;
   padding-right: 4px;
 
+
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+
   transition: background-color .3s;
 
   animation: pop-in .3s;
@@ -71,7 +104,5 @@ export default {
     transform: scale(1)
   }
 }
-
-
 
 </style>

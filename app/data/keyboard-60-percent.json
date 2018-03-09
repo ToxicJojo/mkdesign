@@ -5,6 +5,10 @@
   "grid_name": "keyboard-60-percent",
   "boardColor": "",
   "fontColor": "",
+  "legendPlacement": {
+    "horizontal": "flex-start",
+    "vertical": "flex-start"
+  },
   "font": {
     "font": "_blank",
     "name": "Blank",

@@ -1,3 +1,5 @@
+import mergeObjects from '../../../util/merge-objects'
+
 const mutations = {
   setKeyboard (state, keyboard) {
     state.currentKeyboard = keyboard
@@ -6,10 +8,16 @@ const mutations = {
     state.currentKeyboard.boardColor = color
   },
   setFont (state, font) {
-    state.currentKeyboard.font = font
+    mergeObjects(state.currentKeyboard.defaultKeyConfig.font, font)
+  },
+  setKeycapColor (state, color) {
+    state.currentKeyboard.defaultKeyConfig.color = color
   },
   setFontColor (state, color) {
-    state.currentKeyboard.fontColor = color
+    state.currentKeyboard.defaultKeyConfig.font.fontColor = color
+  },
+  setLegendPlacement (state, placement) {
+    state.currentKeyboard.defaultKeyConfig.legendPlacement = placement
   },
   updateKey (state, data) {
     state.currentKeyboard.blocks.forEach((block, blockIndex) => {

@@ -1,7 +1,7 @@
 <template lang='pug'>
   .history-card
     span Keycap Color
-    .color-block(:style='{ "background-color": data.color }')
+    .color-block(:style='{ "background-color": historyData.color }')
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
 
     }
   },
-  props: ['data'],
+  props: ['historyData'],
 }
 </script>
 
@@ -22,6 +22,5 @@ export default {
   width: 100px;
   height: 100px;
 }
-
 
 </style>

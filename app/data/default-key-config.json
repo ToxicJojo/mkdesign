@@ -1,0 +1,12 @@
+{
+  "color" : "#212121",
+  "font": {
+    "font": "Helvetica",
+    "fontSize": "0px",
+    "fontColor": "#eee"
+  },
+  "legendPlacement": {
+    "horizontal": "flex-start",
+    "vertical": "flex-start"
+  }
+}

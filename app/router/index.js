@@ -7,6 +7,7 @@ import BoardColorWizard from '../components/editor/wizards/BoardColorWizard.vue'
 import FontWizard from '../components/editor/wizards/FontWizard.vue'
 import KeycapColorWizard from '../components/editor/wizards/KeycapColorWizard.vue'
 import FontColorWizard from '../components/editor/wizards/FontColorWizard.vue'
+import LegendPlacementWizard from '../components/editor/wizards/LegendPlacementWizard.vue'
 
 Vue.use(Router)
 
@@ -45,6 +46,11 @@ const router = new Router({
           path: 'fontColor',
           name: 'fontColor',
           component: FontColorWizard,
+        },
+        {
+          path: 'legendPlacement',
+          name: 'legendPlacement',
+          component: LegendPlacementWizard,
         }
       ],
     },

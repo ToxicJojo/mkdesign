@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Topleft",
+    "legendPlacement": {
+      "horizontal": "flex-start",
+      "vertical": "flex-start"
+    }
+  },
+  {
+    "name": "Bottomleft",
+    "legendPlacement": {
+      "horizontal": "flex-start",
+      "vertical": "flex-end"
+    }
+  },
+  {
+    "name": "Center",
+    "legendPlacement": {
+      "horizontal": "center",
+      "vertical": "center"
+    }
+  },
+  {
+    "name": "Topright",
+    "legendPlacement": {
+      "horizontal": "flex-end",
+      "vertical": "flex-start"
+    }
+  },
+  {
+    "name": "Bottomright",
+    "legendPlacement": {
+      "horizontal": "flex-end",
+      "vertical": "flex-end"
+    }
+  }
+]

@@ -3,8 +3,24 @@
   "description": "For people who don`t need keypads.",
   "picture_url": "static/img/layouts/75percent.png",
   "grid_name": "keyboard-75-percent",
+  "defaultKeyConfig": {
+    "color" : "#212121",
+    "font": {
+      "font": "Helvetica",
+      "fontSize": "0px",
+      "fontColor": "#eee"
+    },
+    "legendPlacement": {
+      "horizontal": "flex-start",
+      "vertical": "flex-start"
+    }
+  },
   "boardColor": "",
   "fontColor": "",
+  "legendPlacement": {
+    "horizontal": "flex-start",
+    "vertical": "flex-start"
+  },
   "font": {
     "font": "_blank",
     "name": "Blank",
@@ -22,7 +38,19 @@
               "id": "escape",
               "text": "Esc",
               "size": "1",
-              "color": "#212121"
+              
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -38,25 +66,69 @@
               "id": "f1",
               "text": "F1",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f2",
               "text": "F2",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f3",
               "text": "F3",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f4",
               "text": "F4",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -72,25 +144,69 @@
               "id": "f5",
               "text": "F5",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f6",
               "text": "F6",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f7",
               "text": "F7",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f8",
               "text": "F8",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -106,25 +222,69 @@
               "id": "f9",
               "text": "F9",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f10",
               "text": "F10",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f11",
               "text": "F11",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f12",
               "text": "F12",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -140,19 +300,52 @@
               "id": "printScreen",
               "text": "prtScr",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "scrollLock",
               "text": "srcLk",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "pause",
               "text": "Pause",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -168,85 +361,239 @@
               "id": "tilde",
               "text": "~\n`",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow1",
               "text": "!\n1",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow2",
               "text": "@\n2",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow3",
               "text": "#\n3",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow4",
               "text": "$\n4",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow5",
               "text": "%\n5",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow6",
               "text": "^\n6",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow7",
               "text": "&\n7",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow8",
               "text": "*\n8",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow9",
               "text": "(\n9",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow0",
               "text": ")\n0",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow-",
               "text": "_\n-",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "numberRow=",
               "text": "+\n=",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "backspace",
               "text": "Backspace",
               "size": "2",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -257,85 +604,239 @@
               "id": "tab",
               "text": "Tab",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "q",
               "text": "Q",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "w",
               "text": "W",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "e",
               "text": "E",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "r",
               "text": "R",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "t",
               "text": "T",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "y",
               "text": "Y",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "u",
               "text": "U",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "i",
               "text": "I",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "o",
               "text": "O",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "p",
               "text": "P",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "squareBracketOpen",
               "text": "[\n{",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "squareBracketClose",
               "text": "]\n}",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "backslash",
               "text": "\\\n|",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -346,79 +847,222 @@
               "id": "capsLock",
               "text": "CapsLock",
               "size": "1.75",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "a",
               "text": "A",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "s",
               "text": "S",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "d",
               "text": "D",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "f",
               "text": "F",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "g",
               "text": "G",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "h",
               "text": "H",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "j",
               "text": "J",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "k",
               "text": "K",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "l",
               "text": "L",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "colon",
               "text": ";\n:",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "quotation",
               "text": "'\n",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "enter",
               "text": "Enter",
               "size": "2.25",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -429,73 +1073,205 @@
               "id": "leftShift",
               "text": "Shift",
               "size": "2.25",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "z",
               "text": "Z",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "x",
               "text": "X",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "c",
               "text": "C",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "v",
               "text": "V",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "b",
               "text": "B",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "n",
               "text": "N",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "m",
               "text": "M",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "comma",
               "text": "<\n,",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "dot",
               "text": ">\n.",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "slash",
               "text": "?\n/",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "rightShift",
               "text": "Shift",
               "size": "2.75",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -506,49 +1282,137 @@
               "id": "leftCtrl",
               "text": "Ctrl",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "leftWin",
               "text": "Win",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "leftAlt",
               "text": "Alt",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "space",
               "text": "",
               "size": "6.25",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "rightAlt",
               "text": "Alt",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "rightWin",
               "text": "Win",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "rightUtility",
               "text": "Util",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "rightCtrl",
               "text": "Ctrl",
               "size": "1.5",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -564,19 +1428,52 @@
               "id": "insert",
               "text": "Insert",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "home",
               "text": "Home",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "pgUp",
               "text": "Page\nUp",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -587,19 +1484,52 @@
               "id": "delete",
               "text": "Delete",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "end",
               "text": "End",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "pgDown",
               "text": "Page\nDown",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }
@@ -618,7 +1548,18 @@
               "id": "up",
               "text": "↑",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         },
@@ -629,19 +1570,52 @@
               "id": "left",
               "text": "←",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "down",
               "text": "↓",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             },
             {
               "id": "right",
               "text": "→",
               "size": "1",
-              "color": "#212121"
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
             }
           ]
         }

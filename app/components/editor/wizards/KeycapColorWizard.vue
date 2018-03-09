@@ -17,11 +17,7 @@ export default {
   methods: {
     selectColor(color) {
 
-      const keyData = {
-        color,
-      }
-
-      this.$store.commit('editor/updateAllKeys', keyData)
+      this.$store.commit('editor/setKeycapColor', color)
 
       const historyData = {
         type: 'keycapColor',
