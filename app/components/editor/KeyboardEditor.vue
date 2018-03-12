@@ -32,6 +32,9 @@ export default {
           },
         }
         this.$store.commit('editor/updateKey', data)
+      } else if (mode.type === 'detail') {
+        mode.data = data
+        this.$store.commit('editor/setMode', mode)
       }
     },
   },

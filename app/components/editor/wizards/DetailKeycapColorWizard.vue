@@ -2,6 +2,7 @@
   .detail-keycap-color-wizard
     span Select a color. Click a keycap to apply the color
     ColorPicker(@colorPicked='selectColor')
+    .button.is-primary(@click='gotoNextWizard("detail")') Continue
 </template>
 
 <script>
@@ -36,4 +37,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+.detail-keycap-color-wizard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 </style>
