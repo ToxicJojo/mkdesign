@@ -57,11 +57,13 @@ export default {
     mergedKeyConfig () {
       if (this.defaultKeyConfig) {
         //const defaultKeyConfig = Object.assign({}, this.defaultKeyConfig)
-        const defaultKeyConfigCopy = JSON.parse(JSON.stringify(this.defaultKeyConfig))
+        let defaultKeyConfigCopy = JSON.parse(JSON.stringify(this.defaultKeyConfig))
       
+        //defaultKeyConfigCopy = mergeObjects(defaultKeyConfigCopy, this.keyValue.keyConfig)
         mergeObjects(defaultKeyConfigCopy, this.keyValue.keyConfig)
 
         return defaultKeyConfigCopy
+        //return mergeObjects(this.defaultKeyConfig, this.keyValue.keyConfig)
       } else {
         return this.keyValue.keyConfig
       }

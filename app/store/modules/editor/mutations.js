@@ -26,11 +26,12 @@ const mutations = {
           if (row.index === data.rowIndex) {
             row.keys.forEach((key, keyIndex) => {
               if (key.id === data.keyId) {
-                for (const name in data.keyData) {
+                /*for (const name in data.keyData) {
                   if (data.keyData.hasOwnProperty(name)) {
                     state.currentKeyboard.blocks[blockIndex].rows[rowIndex].keys[keyIndex][name] = data.keyData[name]
                   }
-                }
+                }*/
+                mergeObjects(state.currentKeyboard.blocks[blockIndex].rows[rowIndex].keys[keyIndex], data.keyData)
               }
             })
           }
