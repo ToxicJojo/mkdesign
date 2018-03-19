@@ -1,5 +1,18 @@
 const historyMixin = {
+  data () {
+    return {
+      choiceMade: false,
+    }
+  },
   methods: {
+    alreadySelectedOption () {
+      if (!this.choiceMade) {
+        this.choiceMade = true
+        return false
+      }
+
+      return true
+    },
     addToHistory (data) {
       // Get the history index from the route query
       const index = this.$router.currentRoute.query.index

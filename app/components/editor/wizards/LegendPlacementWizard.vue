@@ -74,18 +74,20 @@ export default {
   },
   methods: {
     selectPlacement (placement) {
-      this.$store.commit('editor/setLegendPlacement', placement.legendPlacement)
+      if (!this.alreadySelectedOption()) {
+        this.$store.commit('editor/setLegendPlacement', placement.legendPlacement)
 
-      const historyData = {
-        type: 'legendPlacement',
-        data: {
-          placement,
+        const historyData = {
+          type: 'legendPlacement',
+          data: {
+            placement,
+          }
         }
+
+        this.addToHistory(historyData)
+
+        this.gotoNextWizard('detailKeycapColor')
       }
-
-      this.addToHistory(historyData)
-
-      this.gotoNextWizard('detailKeycapColor')
     },
   },
   components: {

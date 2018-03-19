@@ -29,18 +29,20 @@ export default {
   },
   methods: {
     selectFont (font) {
-      this.$store.commit('editor/setFont', font)
+      if(!this.alreadySelectedOption()) {
+        this.$store.commit('editor/setFont', font)
 
-      const historyData = {
-        type: 'font',
-        data: {
-          font,
-        },
+        const historyData = {
+          type: 'font',
+          data: {
+            font,
+          },
+        }
+
+        this.addToHistory(historyData)
+
+        this.gotoNextWizard('keycapColor')
       }
-
-      this.addToHistory(historyData)
-
-      this.gotoNextWizard('keycapColor')
     },
   },
   computed: {

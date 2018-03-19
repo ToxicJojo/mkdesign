@@ -13,7 +13,6 @@
 import WizardMixin from './wizard-mixin'
 
 export default {
-
   name: 'LayoutWizard',
   data () {
     return {
@@ -26,20 +25,22 @@ export default {
   },
   methods: {
     selectLayout (layout) {
-      this.$store.commit('editor/setKeyboard', layout)
+      if(!this.alreadySelectedOption()) {
+        this.$store.commit('editor/setKeyboard', layout)
 
-      const historyData = {
-        type: 'layout',
-        data: {
-          name: layout.name,
-          description: layout.description,
-          picture_url: layout.picture_url,
+        const historyData = {
+          type: 'layout',
+          data: {
+            name: layout.name,
+            description: layout.description,
+            picture_url: layout.picture_url,
+          }
         }
+
+        this.addToHistory(historyData)
+
+        this.gotoNextWizard('board')
       }
-
-      this.addToHistory(historyData)
-
-      this.gotoNextWizard('board')
     },
   },
   mixins: [
