@@ -1,8 +1,8 @@
 {
-  "name": "75 %",
+  "name": "Tenkeyless",
   "description": "For people who don`t need numpads.",
-  "picture_url": "static/img/layouts/75percent.png",
-  "grid_name": "keyboard-75-percent",
+  "picture_url": "static/img/layouts/tenkeyless.png",
+  "grid_name": "keyboard-tenkeyless",
   "defaultKeyConfig": {
     "color" : "#212121",
     "font": {
