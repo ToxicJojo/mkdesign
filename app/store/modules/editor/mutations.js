@@ -4,6 +4,16 @@ const mutations = {
   setKeyboard (state, keyboard) {
     state.currentKeyboard = keyboard
   },
+  reset (state) {
+    state.currentKeyboard = null
+    state.history = []
+    state.newestWizard = 'layout'
+    state.mode = {
+      type: 'none',
+      data: {
+      },
+    }
+  },
   setBoardColor (state, color) {
     state.currentKeyboard.boardColor = color
   },

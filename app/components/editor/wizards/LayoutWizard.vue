@@ -26,7 +26,8 @@ export default {
   methods: {
     selectLayout (layout) {
       if(!this.alreadySelectedOption()) {
-        this.$store.commit('editor/setKeyboard', layout)
+        const layoutCopy = JSON.parse(JSON.stringify(layout))
+        this.$store.commit('editor/setKeyboard', layoutCopy)
 
         const historyData = {
           type: 'layout',
