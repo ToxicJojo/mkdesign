@@ -1,6 +1,6 @@
 {
   "name": "75 %",
-  "description": "For people who don`t need keypads.",
+  "description": "For people who don`t need numpads.",
   "picture_url": "static/img/layouts/75percent.png",
   "grid_name": "keyboard-75-percent",
   "defaultKeyConfig": {

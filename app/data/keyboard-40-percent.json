@@ -1,0 +1,788 @@
+{
+  "name": "40 %",
+  "description": "How do you even use this?",
+  "picture_url": "static/img/layouts/40percent.png",
+  "grid_name": "keyboard-40-percent",
+  "defaultKeyConfig": {
+    "color" : "#212121",
+    "font": {
+      "font": "Helvetica",
+      "fontSize": "0px",
+      "fontColor": "#eee"
+    },
+    "legendPlacement": {
+      "horizontal": "flex-start",
+      "vertical": "flex-start"
+    }
+  },
+  "boardColor": "",
+  "fontColor": "",
+  "legendPlacement": {
+    "horizontal": "flex-start",
+    "vertical": "flex-start"
+  },
+  "font": {
+    "font": "_blank",
+    "name": "Blank",
+    "fontSize": "0px",
+    "description": "Who needs labels?"
+  },
+  "blocks": [
+    {
+      "name": "main",
+      "rows": [
+        {
+          "index": 0,
+          "keys": [
+            {
+              "id": "escape",
+              "text": "Esc",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "q",
+              "text": "Q",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "w",
+              "text": "W",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "e",
+              "text": "E",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "r",
+              "text": "R",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "t",
+              "text": "T",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "y",
+              "text": "Y",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "u",
+              "text": "U",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "i",
+              "text": "I",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "o",
+              "text": "O",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "p",
+              "text": "P",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "Backspace",
+              "text": "Backspace",
+              "size": "2",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            } 
+          ]
+        },
+        {
+          "index": 2,
+          "keys": [
+            {
+              "id": "tab",
+              "text": "Tab",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "a",
+              "text": "A",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "s",
+              "text": "S",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "d",
+              "text": "D",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "f",
+              "text": "F",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "g",
+              "text": "G",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "h",
+              "text": "H",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "j",
+              "text": "J",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "k",
+              "text": "K",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "l",
+              "text": "L",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "colon",
+              "text": ";\n:",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "enter",
+              "text": "Enter",
+              "size": "1.75",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "keys": [
+            {
+              "id": "leftShift",
+              "text": "Shift",
+              "size": "1.75",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "z",
+              "text": "Z",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "x",
+              "text": "X",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "c",
+              "text": "C",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "v",
+              "text": "V",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "b",
+              "text": "B",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "n",
+              "text": "N",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "m",
+              "text": "M",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "comma",
+              "text": "<\n,",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "dot",
+              "text": ">\n.",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "slash",
+              "text": "?\n/",
+              "size": "1",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "rightFN",
+              "text": "FN",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "keys": [
+            {
+              "id": "leftCtrl",
+              "text": "Ctrl",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "leftWin",
+              "text": "FN2",
+              "size": "1.5",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "leftAlt",
+              "text": "Super",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "space",
+              "text": "",
+              "size": "5",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "rightAlt",
+              "text": "Alt",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "rightWin",
+              "text": "Super",
+              "size": "1.5",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "rightUtility",
+              "text": "Util",
+              "size": "1.25",
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

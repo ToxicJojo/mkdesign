@@ -1,0 +1,11 @@
+.keyboard-40-percent {
+  display: grid;
+  grid-template-columns: 13 * $keycap-size;
+  grid-template-rows: 4 * $keycap-size;
+
+  grid-template-areas: 
+    "main";
+
+  width: 13.5 * $keycap-size;
+  height: 4.5 * $keycap-size;
+}
