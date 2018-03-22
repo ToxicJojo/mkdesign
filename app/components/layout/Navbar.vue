@@ -12,14 +12,20 @@
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link  Download
             b-icon(icon='download')
-          .navbar-dropdown
+          .navbar-dropdown.is-boxed
             a.navbar-item(@click='downloadJSON') JSON
+            a.navbar-item(@click='downloadPNG') PNG
+            a.navbar-item(@click='downloadJPEG') JPEG
+            a.navbar-item(@click='downloadSVG') SVG
         a.navbar-item(href='#/editor/layout' @click='$store.commit("editor/reset")')
           | Reset
           b-icon(icon='reload')
 </template>
 
 <script>
+import domtoimage from 'dom-to-image'
+import downloadFile from '../../util/download-file'
+
 export default {
   name: 'Navbar',
   data () {
@@ -28,12 +34,27 @@ export default {
   },
   methods: {
     downloadJSON () {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.$store.state.editor.currentKeyboard));
-      const downloadAnchorNode = document.createElement('a');
-      downloadAnchorNode.setAttribute("href",     dataStr);
-      downloadAnchorNode.setAttribute("download","keyboard.json");
-      downloadAnchorNode.click();
-      downloadAnchorNode.remove();
+      const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor.currentKeyboard))}`
+
+      downloadFile('text/json', fileData, 'keyboard.json')
+    },
+    async downloadPNG ()  {
+      const keyboard = document.getElementById('keyboard')
+      const img = await domtoimage.toPng(keyboard)
+
+      downloadFile('image/png', img, 'keyboard.png')
+    },
+    async downloadJPEG () {
+      const keyboard = document.getElementById('keyboard')
+      const img = await domtoimage.toJpeg(keyboard)
+
+      downloadFile('image/jpeg', img, 'keyboard.jpeg')
+    },
+    async downloadSVG () {
+      const keyboard = document.getElementById('keyboard')
+      const img = await domtoimage.toSvg(keyboard)
+
+      downloadFile('image/svg+xml', img, 'keyboard.svg')
     },
   },
 }

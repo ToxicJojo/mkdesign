@@ -2,7 +2,7 @@
   .editor
     EditorHistory
     EditorWizard
-    Keyboard(@keyClicked='handleKeyClick' v-if='keyboard' :keyboard='keyboard')
+    Keyboard#keyboard(@keyClicked='handleKeyClick' v-if='keyboard' :keyboard='keyboard')
 </template>
 
 <script>
