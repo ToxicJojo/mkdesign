@@ -6,25 +6,28 @@
       template(v-else-if='selectFontColor')
         ColorPicker(@colorPicked='fontColorPicked')
       template(v-else)
-        .text-value
-          b-field(label='Text')
-            b-input(v-model='keyValue.text')
-        .font-selection
-          b-field(label='Font')
-            b-select(v-model='keyFont' placeholder='Select a font' rounded)
-              option(v-for='font in fonts' :value='font') {{font.name}}
-        .legend-placement
-          b-field(label='Legend placement')
-            b-select(v-model='keyValue.keyConfig.legendPlacement' rounded)
-              option(v-for='placement in legendPlacements' :value='placement.legendPlacement') {{placement.name}}
-        .keycap-color
-          b-field(label='Keycap color')
-            .color-field(:style='{"background-color": keyValue.keyConfig.color}' v-if='keyValue.keyConfig.color' @click='selectKeycapColor = true' )
-            .color-field(:style='{"background-color": defaultKeyConfig.color}' @click='selectKeycapColor = true' v-else)
-        .font-color
-          b-field(label='Font color')
-            .color-field(:style='{"background-color": keyValue.keyConfig.font.fontColor}' v-if='keyValue.keyConfig.font.fontColor' @click='selectFontColor = true' )
-            .color-field(:style='{"background-color": defaultKeyConfig.font.fontColor}' @click='selectFontColor = true' v-else)
+        .columns
+          .column
+            .text-value
+              b-field(label='Text')
+                b-input(v-model='keyValue.text' rounded)
+            .font-selection
+              b-field(label='Font')
+                b-select(v-model='keyFont' placeholder='Select a font' rounded)
+                  option(v-for='font in fonts' :value='font') {{font.name}}
+            .legend-placement
+              b-field(label='Legend placement')
+                b-select(v-model='keyValue.keyConfig.legendPlacement' rounded)
+                  option(v-for='placement in legendPlacements' :value='placement.legendPlacement') {{placement.name}}
+          .column
+            .keycap-color
+              b-field(label='Keycap color')
+                .color-field(:style='{"background-color": keyValue.keyConfig.color}' v-if='keyValue.keyConfig.color' @click='selectKeycapColor = true' )
+                .color-field(:style='{"background-color": defaultKeyConfig.color}' @click='selectKeycapColor = true' v-else)
+            .font-color
+              b-field(label='Font color')
+                .color-field(:style='{"background-color": keyValue.keyConfig.font.fontColor}' v-if='keyValue.keyConfig.font.fontColor' @click='selectFontColor = true' )
+                .color-field(:style='{"background-color": defaultKeyConfig.font.fontColor}' @click='selectFontColor = true' v-else)
 
 
 

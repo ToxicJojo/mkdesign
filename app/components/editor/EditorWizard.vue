@@ -8,11 +8,9 @@
 import LayoutWizard from './wizards/LayoutWizard.vue'
 
 export default {
-
   name: 'EditorWizard',
   data () {
     return {
-
     }
   },
   components: {
@@ -26,6 +24,7 @@ export default {
 .editor-wizard {
   grid-area: wizard;
 
+  width: 100%;
   border-bottom: 1px solid black;
   padding: 20px;
 }

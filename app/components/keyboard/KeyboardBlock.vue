@@ -8,7 +8,6 @@
 import KeyboardRow from './KeyboardRow.vue'
 
 export default {
-
   name: 'KeyboardBlock',
   data () {
     return {
@@ -28,5 +27,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

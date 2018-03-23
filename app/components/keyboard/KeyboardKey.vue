@@ -4,13 +4,12 @@
 </template>
 
 <script>
-import removeNullProperties from '../../util/remove-null-properties'
 import mergeObjects from '../../util/merge-objects'
+import shadeColor from '../../util/shade-color'
 
 import basicKeyConfig from '../../data/default-key-config.json'
 
 export default {
-
   name: 'KeyboardKey',
   data () {
     return {
@@ -19,17 +18,6 @@ export default {
   methods: {
     bubbleKeyClick () {
       this.$emit('keyClicked', { keyId: this.keyValue.id })
-    },
-    shadeColor2(color, percent) {
-      /* This code comes from
-       https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
-       Maybe put this into some kind of util file.
-       */ 
-      if(color) {
-        const f=parseInt(color.slice(1),16),t=percent<0?0:255,p=percent<0?percent*-1:percent,R=f>>16,G=f>>8&0x00FF,B=f&0x0000FF;
-        return "#"+(0x1000000+(Math.round((t-R)*p)+R)*0x10000+(Math.round((t-G)*p)+G)*0x100+(Math.round((t-B)*p)+B)).toString(16).slice(1);
-      }
-      return undefined
     },
   },
   computed: {
@@ -41,7 +29,7 @@ export default {
       styleObject.width = `${this.keyValue.size * this.$keycapSize}px`
 
       styleObject.backgroundColor = keyConfig.color
-      styleObject.borderColor = this.shadeColor2(keyConfig.color, -.5)
+      styleObject.borderColor = shadeColor(keyConfig.color, -.5)
 
       styleObject.color = keyConfig.font.fontColor
       styleObject.fontSize = keyConfig.font.fontSize
@@ -56,14 +44,11 @@ export default {
     },
     mergedKeyConfig () {
       if (this.defaultKeyConfig) {
-        //const defaultKeyConfig = Object.assign({}, this.defaultKeyConfig)
         let defaultKeyConfigCopy = JSON.parse(JSON.stringify(this.defaultKeyConfig))
       
-        //defaultKeyConfigCopy = mergeObjects(defaultKeyConfigCopy, this.keyValue.keyConfig)
         mergeObjects(defaultKeyConfigCopy, this.keyValue.keyConfig)
 
         return defaultKeyConfigCopy
-        //return mergeObjects(this.defaultKeyConfig, this.keyValue.keyConfig)
       } else {
         return this.keyValue.keyConfig
       }
@@ -94,7 +79,6 @@ export default {
   justify-content: inherit;
 
   transition: background-color .3s;
-
   animation: pop-in .3s;
 }
 
@@ -106,5 +90,4 @@ export default {
     transform: scale(1)
   }
 }
-
 </style>

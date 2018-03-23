@@ -7,7 +7,6 @@
 import KeyboardKey from './KeyboardKey.vue'
 
 export default {
-
   name: 'KeyboardRow',
   data () {
     return {
@@ -41,9 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .row {
   display: flex;
 }
-
 </style>

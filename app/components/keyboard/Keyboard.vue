@@ -34,14 +34,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .keyboard {
   grid-area: keyboard;
-  margin: 20px;
   justify-content: center;
   align-content: center;
+  margin: 20px;
 
   transition: background-color .3s, color .3s;
 }
-
 </style>
