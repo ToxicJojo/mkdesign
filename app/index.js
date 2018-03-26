@@ -4,6 +4,7 @@ import Vue from 'vue'
 import Buefy from 'buefy'
 import KeycapSize from './plugins/keycapSize'
 import KeyboardData from './plugins/keyboardData'
+import Api from './api'
 
 // Style
 import './sass/style.scss'
@@ -16,6 +17,7 @@ import router from './router'
 Vue.use(Buefy)
 Vue.use(KeycapSize)
 Vue.use(KeyboardData)
+Vue.use(Api)
 
 const vueApp = new Vue({
   el: '#app',

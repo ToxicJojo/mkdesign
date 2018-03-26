@@ -9,8 +9,12 @@
     .navbar-menu(:class='{ "is-active": navbarMenuActive}')
       .navbar-start
       .navbar-end
+        a.navbar-item(@click='saveEditorState')
+          | Save
+          b-icon(icon='cloud-upload')
         .navbar-item.has-dropdown.is-hoverable
-          a.navbar-link  Download
+
+          a.navbar-link Download
             b-icon(icon='download')
           .navbar-dropdown.is-boxed
             a.navbar-item(@click='downloadJSON') JSON
@@ -36,6 +40,14 @@ export default {
   methods: {
     toggleNavbarMenu () {
       this.navbarMenuActive = !this.navbarMenuActive
+    },
+    async saveEditorState () {
+      const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
+      console.log(key)
+      this.$toast.open({
+        message: 'Keyboard saved!',
+        type: 'is-success',
+      })
     },
     downloadJSON () {
       const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor.currentKeyboard))}`
