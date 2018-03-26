@@ -2,11 +2,11 @@
   nav.navbar.is-primary
     .navbar-brand
       a.navbar-item(href='#/editor/layout') MKDesign
-      .navbar-burger
+      .navbar-burger(@click='toggleNavbarMenu')
         span
         span
         span
-    .navbar-menu
+    .navbar-menu(:class='{ "is-active": navbarMenuActive}')
       .navbar-start
       .navbar-end
         .navbar-item.has-dropdown.is-hoverable
@@ -30,9 +30,13 @@ export default {
   name: 'Navbar',
   data () {
     return {
+      navbarMenuActive: false,
     }
   },
   methods: {
+    toggleNavbarMenu () {
+      this.navbarMenuActive = !this.navbarMenuActive
+    },
     downloadJSON () {
       const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor.currentKeyboard))}`
 
