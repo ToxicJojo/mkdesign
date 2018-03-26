@@ -1,6 +1,12 @@
 import mergeObjects from '../../../util/merge-objects'
 
 const mutations = {
+  setEditorState(state, editorState) {
+    state.currentKeyboard = editorState.currentKeyboard
+    state.history = editorState.history
+    state.newestWizard = editorState.newestWizard
+    state.mode = editorState.mode
+  },
   setKeyboard (state, keyboard) {
     state.currentKeyboard = keyboard
   },

@@ -9,6 +9,13 @@
     .navbar-menu(:class='{ "is-active": navbarMenuActive}')
       .navbar-start
       .navbar-end
+        .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Load
+          .navbar-dropdown.is-boxed
+
+            a.navbar-item JSON
+              input.hiddenFileInput(type='file' @change='loadJSON')
+            a.navbar-item() Cloud
         a.navbar-item(@click='saveEditorState')
           | Save
           b-icon(icon='cloud-upload')
@@ -44,13 +51,29 @@ export default {
     async saveEditorState () {
       const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
       console.log(key)
+
       this.$toast.open({
         message: 'Keyboard saved!',
         type: 'is-success',
       })
     },
+    async loadJSON (e) {
+      const file = e.target.files[0]
+
+      const reader = new FileReader()
+
+      reader.onload = (e) => {
+        const content = e.target.result
+        const editorState = JSON.parse(content)
+
+        this.$store.commit('editor/setEditorState', editorState)
+        this.$router.push(editorState.newestWizard)
+      }
+
+      reader.readAsText(file)
+    },
     downloadJSON () {
-      const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor.currentKeyboard))}`
+      const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor))}`
 
       downloadFile('text/json', fileData, 'keyboard.json')
     },
@@ -77,4 +100,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.hiddenFileInput {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
 </style>
