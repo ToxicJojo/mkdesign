@@ -15,7 +15,7 @@
 
             a.navbar-item JSON
               input.hiddenFileInput(type='file' @change='loadJSON')
-            a.navbar-item() Cloud
+            a.navbar-item(@click='loadCloud') Cloud
         a.navbar-item(@click='saveEditorState')
           | Save
           b-icon(icon='cloud-upload')
@@ -36,6 +36,8 @@
 <script>
 import domtoimage from 'dom-to-image'
 import downloadFile from '../../util/download-file'
+import replaceProperties from '../../util/replace-properties'
+import copyToClipboard from '../../util/copy-to-clipboard'
 
 export default {
   name: 'Navbar',
@@ -51,10 +53,19 @@ export default {
     async saveEditorState () {
       const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
       console.log(key)
-
-      this.$toast.open({
-        message: 'Keyboard saved!',
+      this.$snackbar.open({
+        message: `Keyboard saved under ID: ${key}`,
         type: 'is-success',
+        position: 'is-bottom-right',
+        actionText: 'Copy ID',
+        indefinite: true,
+        onAction: () => {
+          copyToClipboard(key)
+          this.$toast.open({
+              message: 'Copied ID',
+              queue: false
+          })
+        }
       })
     },
     async loadJSON (e) {
@@ -71,6 +82,32 @@ export default {
       }
 
       reader.readAsText(file)
+    },
+    loadCloud () {
+      this.$dialog.prompt({
+        message: 'Enter the KeyboardID',
+        inputAttrs: {
+            placeholder: 'KeyboardID',
+            maxlength: 20.
+        },
+        onConfirm:  async (value) => {
+          try {
+            const editorState = await this.$api.editor.loadEditorState(value)
+
+            this.$store.commit('editor/setEditorState', editorState)
+            this.$router.push(editorState.newestWizard)
+            this.$toast.open({
+              message: 'Keyboard loaded!',
+              type: 'is-success',
+            })
+          } catch (e) {
+            this.$toast.open({
+              message: 'Unkown KeyboardID',
+              type: 'is-danger',
+            })
+          }
+        }
+      })
     },
     downloadJSON () {
       const fileData = `charset=utf-8,${encodeURIComponent(JSON.stringify(this.$store.state.editor))}`

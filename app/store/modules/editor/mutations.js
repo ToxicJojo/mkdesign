@@ -59,11 +59,7 @@ const mutations = {
     state.currentKeyboard.blocks.forEach((block, blockIndex) => {
       block.rows.forEach((row, rowIndex) => {
         row.keys.forEach((key, keyIndex) => {
-          for (const name in data) {
-            if (data.hasOwnProperty(name)) {
-              state.currentKeyboard.blocks[blockIndex].rows[rowIndex].keys[keyIndex][name] = data[name]
-            }
-          }
+          mergeObjects(state.currentKeyboard.blocks[blockIndex].rows[rowIndex].keys[keyIndex], data.keyData)
         })
       })
     })
