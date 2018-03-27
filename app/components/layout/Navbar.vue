@@ -17,6 +17,8 @@
               b-icon(icon='link')
             a.navbar-item(@click='shareReddit') Reddit
               b-icon(icon='reddit')
+            a.navbar-item(@click='shareTwitter') Twitter
+              b-icon(icon='twitter')
 
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Load
@@ -66,6 +68,16 @@ export default {
       const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
 
       window.location = `https://www.reddit.com/submit?url=https://mkdesign.click/editor/keyboard/${key}`
+    },
+    async shareTwitter () {
+      const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
+
+      const encodedURI = encodeURI(`https://mkdesign.click/editor/keyboard/${key}`)
+      const tweetText = 'Take a look at my keyboard design'
+
+      const windowFeatures = "location=yes,height=420,width=550,scrollbars=yes,status=yes";
+      const URL = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodedURI}&hashtags=mkdesign`;
+      const win = window.open(URL, "_blank", windowFeatures);
     },
     toggleNavbarMenu () {
       this.navbarMenuActive = !this.navbarMenuActive
