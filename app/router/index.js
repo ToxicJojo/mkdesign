@@ -10,6 +10,7 @@ import FontColorWizard from '../components/editor/wizards/FontColorWizard.vue'
 import LegendPlacementWizard from '../components/editor/wizards/LegendPlacementWizard.vue'
 import DetailKeycapColorWizard from '../components/editor/wizards/DetailKeycapColorWizard.vue'
 import DetailWizard from '../components/editor/wizards/DetailWizard.vue'
+import LoadKeyboard from '../components/editor/util/LoadKeyboard.vue'
 
 Vue.use(Router)
 
@@ -20,6 +21,10 @@ const router = new Router({
       name: 'editor',
       component: KeyboarEditor,
       children: [
+        {
+          path: 'keyboard/:id',
+          component: LoadKeyboard
+        },
         {
           path: 'start',
           component: null,
