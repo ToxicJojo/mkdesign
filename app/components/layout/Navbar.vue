@@ -10,17 +10,24 @@
       .navbar-start
       .navbar-end
         .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Share
+            b-icon(icon='share')
+          .navbar-dropdown.is-boxed
+            a.navbar-item(@click='shareLink') Link
+              b-icon(icon='link')
+
+        .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Load
           .navbar-dropdown.is-boxed
-
             a.navbar-item JSON
               input.hiddenFileInput(type='file' @change='loadJSON')
             a.navbar-item(@click='loadCloud') Cloud
+
         a.navbar-item(@click='saveEditorState')
           | Save
           b-icon(icon='cloud-upload')
-        .navbar-item.has-dropdown.is-hoverable
 
+        .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Download
             b-icon(icon='download')
           .navbar-dropdown.is-boxed
@@ -28,6 +35,7 @@
             a.navbar-item(@click='downloadPNG') PNG
             a.navbar-item(@click='downloadJPEG') JPEG
             a.navbar-item(@click='downloadSVG') SVG
+
         a.navbar-item(href='#/editor/layout' @click='$store.commit("editor/reset")')
           | Reset
           b-icon(icon='reload')
@@ -47,12 +55,17 @@ export default {
     }
   },
   methods: {
+    async shareLink() {
+      const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
+      
+      this.$dialog.alert(`The link to share is: <a href='https://mkdesign.click/#/editor/keyboard/${key}'>https://mkdesign.click/#/editor/keyboard/${key}</a>`)
+    },
     toggleNavbarMenu () {
       this.navbarMenuActive = !this.navbarMenuActive
     },
     async saveEditorState () {
       const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
-      console.log(key)
+
       this.$snackbar.open({
         message: `Keyboard saved under ID: ${key}`,
         type: 'is-success',
