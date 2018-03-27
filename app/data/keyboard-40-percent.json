@@ -1,7 +1,7 @@
 {
   "name": "40 %",
   "description": "How do you even use this?",
-  "picture_url": "static/img/layouts/40percent.png",
+  "picture_url": "/static/img/layouts/40percent.png",
   "grid_name": "keyboard-40-percent",
   "defaultKeyConfig": {
     "color" : "#212121",

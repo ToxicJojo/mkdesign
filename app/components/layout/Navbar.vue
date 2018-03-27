@@ -1,7 +1,7 @@
 <template lang='pug'>
   nav.navbar.is-primary
     .navbar-brand
-      a.navbar-item(href='#/editor/layout') MKDesign
+      router-link.navbar-item(to='/editor/layout') MKDesign
       .navbar-burger(@click='toggleNavbarMenu')
         span
         span
@@ -15,6 +15,8 @@
           .navbar-dropdown.is-boxed
             a.navbar-item(@click='shareLink') Link
               b-icon(icon='link')
+            a.navbar-item(@click='shareReddit') Reddit
+              b-icon(icon='reddit')
 
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Load
@@ -36,7 +38,7 @@
             a.navbar-item(@click='downloadJPEG') JPEG
             a.navbar-item(@click='downloadSVG') SVG
 
-        a.navbar-item(href='#/editor/layout' @click='$store.commit("editor/reset")')
+        a.navbar-item(@click='$store.commit("editor/reset");$router.push("/editor/layout")')
           | Reset
           b-icon(icon='reload')
 </template>
@@ -55,10 +57,15 @@ export default {
     }
   },
   methods: {
-    async shareLink() {
+    async shareLink () {
       const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
       
-      this.$dialog.alert(`The link to share is: <a href='https://mkdesign.click/#/editor/keyboard/${key}'>https://mkdesign.click/#/editor/keyboard/${key}</a>`)
+      this.$dialog.alert(`The link to share is: <a href='https://mkdesign.click/editor/keyboard/${key}'>https://mkdesign.click/editor/keyboard/${key}</a>`)
+    },
+    async shareReddit () {
+      const key = await this.$api.editor.saveEditorState(this.$store.state.editor)
+
+      window.location = `https://www.reddit.com/submit?url=https://mkdesign.click/editor/keyboard/${key}`
     },
     toggleNavbarMenu () {
       this.navbarMenuActive = !this.navbarMenuActive

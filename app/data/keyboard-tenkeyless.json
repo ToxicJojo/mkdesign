@@ -1,7 +1,7 @@
 {
   "name": "Tenkeyless",
   "description": "For people who don`t need numpads.",
-  "picture_url": "static/img/layouts/tenkeyless.png",
+  "picture_url": "/static/img/layouts/tenkeyless.png",
   "grid_name": "keyboard-tenkeyless",
   "defaultKeyConfig": {
     "color" : "#212121",

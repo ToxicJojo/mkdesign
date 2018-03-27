@@ -1,7 +1,7 @@
 {
   "name": "60 %",
   "description": "When you only need the bare minimum.",
-  "picture_url": "static/img/layouts/60percent.png",
+  "picture_url": "/static/img/layouts/60percent.png",
   "grid_name": "keyboard-60-percent",
   "defaultKeyConfig": {
     "color" : "#212121",
