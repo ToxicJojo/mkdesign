@@ -13,12 +13,15 @@
           a.navbar-link Share
             b-icon(icon='share')
           .navbar-dropdown.is-boxed
-            a.navbar-item(@click='shareLink') Link
-              b-icon(icon='link')
-            a.navbar-item(@click='shareReddit') Reddit
-              b-icon(icon='reddit')
-            a.navbar-item(@click='shareTwitter') Twitter
-              b-icon(icon='twitter')
+            a.navbar-item(@click='shareLink')
+              b-icon.dropdown-icon(icon='link')
+              | Link
+            a.navbar-item(@click='shareReddit')
+              b-icon.dropdown-icon(icon='reddit')
+              | Reddit
+            a.navbar-item(@click='shareTwitter')
+              b-icon.dropdown-icon(icon='twitter')
+              | Twitter
 
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Load
@@ -176,6 +179,10 @@ export default {
   top: 0px;
   left: 0px;
   cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-right: 5px;
 }
 
 </style>
