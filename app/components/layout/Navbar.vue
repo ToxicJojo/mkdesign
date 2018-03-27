@@ -26,9 +26,13 @@
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Load
           .navbar-dropdown.is-boxed
-            a.navbar-item JSON
+            a.navbar-item 
+              b-icon.dropdown-icon(icon='json')
+              | JSON
               input.hiddenFileInput(type='file' @change='loadJSON')
-            a.navbar-item(@click='loadCloud') Cloud
+            a.navbar-item(@click='loadCloud')
+              b-icon.dropdown-icon(icon='cloud')
+              | Cloud
 
         a.navbar-item(@click='saveEditorState')
           | Save
