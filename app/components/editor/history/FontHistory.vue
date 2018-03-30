@@ -21,6 +21,8 @@ export default {
     keyValue () {
       return {
         text: 'Q',
+        width: 1,
+        height: 1,
         keyConfig: {
           font: this.historyData.font,
         },
@@ -35,4 +37,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.history-card {
+  display: flex;
+}
+
 </style>

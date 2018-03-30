@@ -42,5 +42,6 @@ export default {
 <style lang="scss" scoped>
 .row {
   display: flex;
+  align-items: flex-start;
 }
 </style>
