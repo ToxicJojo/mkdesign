@@ -37,7 +37,8 @@
             {
               "id": "escape",
               "text": "Esc",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -64,7 +65,8 @@
             {
               "id": "f1",
               "text": "F1",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -81,7 +83,8 @@
             {
               "id": "f2",
               "text": "F2",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -98,7 +101,8 @@
             {
               "id": "f3",
               "text": "F3",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -115,7 +119,8 @@
             {
               "id": "f4",
               "text": "F4",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -142,7 +147,8 @@
             {
               "id": "f5",
               "text": "F5",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -159,7 +165,8 @@
             {
               "id": "f6",
               "text": "F6",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -176,7 +183,8 @@
             {
               "id": "f7",
               "text": "F7",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -193,7 +201,8 @@
             {
               "id": "f8",
               "text": "F8",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -220,7 +229,8 @@
             {
               "id": "f9",
               "text": "F9",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -237,7 +247,8 @@
             {
               "id": "f10",
               "text": "F10",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -254,7 +265,8 @@
             {
               "id": "f11",
               "text": "F11",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -271,7 +283,8 @@
             {
               "id": "f12",
               "text": "F12",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -298,7 +311,8 @@
             {
               "id": "printScreen",
               "text": "prtScr",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -315,7 +329,8 @@
             {
               "id": "scrollLock",
               "text": "srcLk",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -332,7 +347,8 @@
             {
               "id": "pause",
               "text": "Pause",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -359,7 +375,8 @@
             {
               "id": "tilde",
               "text": "~\n`",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -376,7 +393,8 @@
             {
               "id": "numberRow1",
               "text": "!\n1",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -393,7 +411,8 @@
             {
               "id": "numberRow2",
               "text": "@\n2",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -410,7 +429,8 @@
             {
               "id": "numberRow3",
               "text": "#\n3",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -427,7 +447,8 @@
             {
               "id": "numberRow4",
               "text": "$\n4",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -444,7 +465,8 @@
             {
               "id": "numberRow5",
               "text": "%\n5",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -461,7 +483,8 @@
             {
               "id": "numberRow6",
               "text": "^\n6",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -478,7 +501,8 @@
             {
               "id": "numberRow7",
               "text": "&\n7",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -495,7 +519,8 @@
             {
               "id": "numberRow8",
               "text": "*\n8",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -512,7 +537,8 @@
             {
               "id": "numberRow9",
               "text": "(\n9",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -529,7 +555,8 @@
             {
               "id": "numberRow0",
               "text": ")\n0",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -546,7 +573,8 @@
             {
               "id": "numberRow-",
               "text": "_\n-",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -563,7 +591,8 @@
             {
               "id": "numberRow=",
               "text": "+\n=",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -580,7 +609,8 @@
             {
               "id": "backspace",
               "text": "Backspace",
-              "size": "2",
+              "width": 2,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -602,7 +632,8 @@
             {
               "id": "tab",
               "text": "Tab",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -619,7 +650,8 @@
             {
               "id": "q",
               "text": "Q",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -636,7 +668,8 @@
             {
               "id": "w",
               "text": "W",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -653,7 +686,8 @@
             {
               "id": "e",
               "text": "E",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -670,7 +704,8 @@
             {
               "id": "r",
               "text": "R",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -687,7 +722,8 @@
             {
               "id": "t",
               "text": "T",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -704,7 +740,8 @@
             {
               "id": "y",
               "text": "Y",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -721,7 +758,8 @@
             {
               "id": "u",
               "text": "U",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -738,7 +776,8 @@
             {
               "id": "i",
               "text": "I",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -755,7 +794,8 @@
             {
               "id": "o",
               "text": "O",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -772,7 +812,8 @@
             {
               "id": "p",
               "text": "P",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -789,7 +830,8 @@
             {
               "id": "squareBracketOpen",
               "text": "[\n{",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -806,7 +848,8 @@
             {
               "id": "squareBracketClose",
               "text": "]\n}",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -823,7 +866,8 @@
             {
               "id": "backslash",
               "text": "\\\n|",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -845,7 +889,8 @@
             {
               "id": "capsLock",
               "text": "CapsLock",
-              "size": "1.75",
+              "width": 1.75,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -862,7 +907,8 @@
             {
               "id": "a",
               "text": "A",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -879,7 +925,8 @@
             {
               "id": "s",
               "text": "S",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -896,7 +943,8 @@
             {
               "id": "d",
               "text": "D",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -913,7 +961,8 @@
             {
               "id": "f",
               "text": "F",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -930,7 +979,8 @@
             {
               "id": "g",
               "text": "G",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -947,7 +997,8 @@
             {
               "id": "h",
               "text": "H",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -964,7 +1015,8 @@
             {
               "id": "j",
               "text": "J",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -981,7 +1033,8 @@
             {
               "id": "k",
               "text": "K",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -998,7 +1051,8 @@
             {
               "id": "l",
               "text": "L",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1015,7 +1069,8 @@
             {
               "id": "colon",
               "text": ";\n:",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1032,7 +1087,8 @@
             {
               "id": "quotation",
               "text": "'\n",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1049,7 +1105,8 @@
             {
               "id": "enter",
               "text": "Enter",
-              "size": "2.25",
+              "width": 2.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1071,7 +1128,8 @@
             {
               "id": "leftShift",
               "text": "Shift",
-              "size": "2.25",
+              "width": 2.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1088,7 +1146,8 @@
             {
               "id": "z",
               "text": "Z",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1105,7 +1164,8 @@
             {
               "id": "x",
               "text": "X",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1122,7 +1182,8 @@
             {
               "id": "c",
               "text": "C",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1139,7 +1200,8 @@
             {
               "id": "v",
               "text": "V",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1156,7 +1218,8 @@
             {
               "id": "b",
               "text": "B",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1173,7 +1236,8 @@
             {
               "id": "n",
               "text": "N",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1190,7 +1254,8 @@
             {
               "id": "m",
               "text": "M",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1207,7 +1272,8 @@
             {
               "id": "comma",
               "text": "<\n,",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1224,7 +1290,8 @@
             {
               "id": "dot",
               "text": ">\n.",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1241,7 +1308,8 @@
             {
               "id": "slash",
               "text": "?\n/",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1258,7 +1326,8 @@
             {
               "id": "rightShift",
               "text": "Shift",
-              "size": "2.75",
+              "width": 2.75,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1280,7 +1349,8 @@
             {
               "id": "leftCtrl",
               "text": "Ctrl",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1297,7 +1367,8 @@
             {
               "id": "leftWin",
               "text": "Win",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1314,7 +1385,8 @@
             {
               "id": "leftAlt",
               "text": "Alt",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1331,7 +1403,8 @@
             {
               "id": "space",
               "text": "",
-              "size": "6.25",
+              "width": 6.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1348,7 +1421,8 @@
             {
               "id": "rightAlt",
               "text": "Alt",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1365,7 +1439,8 @@
             {
               "id": "rightWin",
               "text": "Win",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1382,7 +1457,8 @@
             {
               "id": "rightUtility",
               "text": "Util",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1399,7 +1475,8 @@
             {
               "id": "rightCtrl",
               "text": "Ctrl",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1426,7 +1503,8 @@
             {
               "id": "insert",
               "text": "Insert",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1443,7 +1521,8 @@
             {
               "id": "home",
               "text": "Home",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1460,7 +1539,8 @@
             {
               "id": "pgUp",
               "text": "Page\nUp",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1482,7 +1562,8 @@
             {
               "id": "delete",
               "text": "Delete",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1499,7 +1580,8 @@
             {
               "id": "end",
               "text": "End",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1516,7 +1598,8 @@
             {
               "id": "pgDown",
               "text": "Page\nDown",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1539,14 +1622,50 @@
       "rows": [
         {
           "index": 0,
-          "offset": {
-            "left": 1
-          },
           "keys": [
+            {
+              "id": "hidden1",
+              "text": "",
+              "width": 1,
+              "height": 1,
+              "hidden": true,
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
             {
               "id": "up",
               "text": "↑",
-              "size": "1",
+              "width": 1,
+              "height": 1,
+              "keyConfig": {
+                "color": null,
+                "font": {
+                  "font": null,
+                  "fontSize": null,
+                  "fontColor": null
+                },
+                "legendPlacement": {
+                  "horizontal": null,
+                  "vertical": null
+                }
+              }
+            },
+            {
+              "id": "hidden2",
+              "text": "",
+              "width": 1,
+              "height": 1,
+              "hidden": true,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1568,7 +1687,8 @@
             {
               "id": "left",
               "text": "←",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1585,7 +1705,8 @@
             {
               "id": "down",
               "text": "↓",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -1602,7 +1723,8 @@
             {
               "id": "right",
               "text": "→",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {

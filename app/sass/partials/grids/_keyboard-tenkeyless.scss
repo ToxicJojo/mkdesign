@@ -1,7 +1,9 @@
 .keyboard-tenkeyless {
   display: grid;
-  grid-template-columns: $keycap-size $keycap-size (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.25 * $keycap-size) (3 * $keycap-size);
-  grid-template-rows: $keycap-size (.5 * $keycap-size) (2 * $keycap-size) $keycap-size (2 * $keycap-size);
+  //grid-template-columns: $keycap-size $keycap-size (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.5 * $keycap-size) (4 * $keycap-size) (.25 * $keycap-size) (3 * $keycap-size);
+  grid-template-columns: 1fr 1fr 4fr .5fr 4fr .5fr 4fr .25fr 3fr;
+  //grid-template-rows: $keycap-size (.5 * $keycap-size) (2 * $keycap-size) $keycap-size (2 * $keycap-size);
+  grid-template-rows: 1fr .5fr 2fr 1fr 2fr;
 
   grid-template-areas: 
     "escape . functionkeys1 . functionkeys2 . functionkeys3 . utility1"
@@ -10,6 +12,11 @@
     "main main main main main main main . ."
     "main main main main main main main . arrows";
 
-    height: 7.5 * $keycap-size;
-    width: 19 * $keycap-size;
+    //height: 7.5 * $keycap-size;
+    //width: 19 * $keycap-size;
+  width: 100%;
+  max-width: 1000px;
+  padding: 1.5%;
+  height: fit-content;
+  //height: 400px;
 }

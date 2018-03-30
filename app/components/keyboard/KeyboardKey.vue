@@ -31,6 +31,10 @@ export default {
       styleObject.flexGrow = this.keyValue.width
       styleObject['--padding-height'] = `${100.0 / this.keyValue.width}%`
 
+      if (this.keyValue.hidden) {
+        styleObject.visibility = 'hidden'
+      }
+
       return styleObject
     },
     borderStyle () {
