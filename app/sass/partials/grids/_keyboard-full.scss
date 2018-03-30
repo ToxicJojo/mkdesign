@@ -1,0 +1,17 @@
+.keyboard-full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr .5fr 4fr .5fr 4fr .25fr 3fr .25fr 4fr;
+  grid-template-rows: 1fr .5fr 2fr 1fr 2fr;
+
+  grid-template-areas: 
+    "escape . functionkeys1 . functionkeys2 . functionkeys3 . utility1 . ."
+    ". . . . . . . . . . ."
+    "main main main main main main main . utility2 . numPad"
+    "main main main main main main main . . . numPad"
+    "main main main main main main main . arrows . numPad";
+
+  width: 100%;
+  max-width: 1300px;
+  padding: 1.5%;
+  height: fit-content;
+}
