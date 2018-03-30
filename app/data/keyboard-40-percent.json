@@ -37,7 +37,8 @@
             {
               "id": "escape",
               "text": "Esc",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -54,7 +55,8 @@
             {
               "id": "q",
               "text": "Q",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -71,7 +73,8 @@
             {
               "id": "w",
               "text": "W",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -88,7 +91,8 @@
             {
               "id": "e",
               "text": "E",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -105,7 +109,8 @@
             {
               "id": "r",
               "text": "R",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -122,7 +127,8 @@
             {
               "id": "t",
               "text": "T",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -139,7 +145,8 @@
             {
               "id": "y",
               "text": "Y",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -156,7 +163,8 @@
             {
               "id": "u",
               "text": "U",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -173,7 +181,8 @@
             {
               "id": "i",
               "text": "I",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -190,7 +199,8 @@
             {
               "id": "o",
               "text": "O",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -207,7 +217,8 @@
             {
               "id": "p",
               "text": "P",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -224,7 +235,8 @@
             {
               "id": "Backspace",
               "text": "Backspace",
-              "size": "2",
+              "width": 2,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -246,7 +258,8 @@
             {
               "id": "tab",
               "text": "Tab",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -263,7 +276,8 @@
             {
               "id": "a",
               "text": "A",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -280,7 +294,8 @@
             {
               "id": "s",
               "text": "S",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -297,7 +312,8 @@
             {
               "id": "d",
               "text": "D",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -314,7 +330,8 @@
             {
               "id": "f",
               "text": "F",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -331,7 +348,8 @@
             {
               "id": "g",
               "text": "G",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -348,7 +366,8 @@
             {
               "id": "h",
               "text": "H",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -365,7 +384,8 @@
             {
               "id": "j",
               "text": "J",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -382,7 +402,8 @@
             {
               "id": "k",
               "text": "K",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -399,7 +420,8 @@
             {
               "id": "l",
               "text": "L",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -416,7 +438,8 @@
             {
               "id": "colon",
               "text": ";\n:",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -433,7 +456,8 @@
             {
               "id": "enter",
               "text": "Enter",
-              "size": "1.75",
+              "width": 1.75,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -455,7 +479,8 @@
             {
               "id": "leftShift",
               "text": "Shift",
-              "size": "1.75",
+              "width": 1.75,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -472,7 +497,8 @@
             {
               "id": "z",
               "text": "Z",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -489,7 +515,8 @@
             {
               "id": "x",
               "text": "X",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -506,7 +533,8 @@
             {
               "id": "c",
               "text": "C",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -523,7 +551,8 @@
             {
               "id": "v",
               "text": "V",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -540,7 +569,8 @@
             {
               "id": "b",
               "text": "B",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -557,7 +587,8 @@
             {
               "id": "n",
               "text": "N",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -574,7 +605,8 @@
             {
               "id": "m",
               "text": "M",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -591,7 +623,8 @@
             {
               "id": "comma",
               "text": "<\n,",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -608,7 +641,8 @@
             {
               "id": "dot",
               "text": ">\n.",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -625,7 +659,8 @@
             {
               "id": "slash",
               "text": "?\n/",
-              "size": "1",
+              "width": 1,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -642,7 +677,8 @@
             {
               "id": "rightFN",
               "text": "FN",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -664,7 +700,8 @@
             {
               "id": "leftCtrl",
               "text": "Ctrl",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -681,7 +718,8 @@
             {
               "id": "leftWin",
               "text": "FN2",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -698,7 +736,8 @@
             {
               "id": "leftAlt",
               "text": "Super",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -715,7 +754,8 @@
             {
               "id": "space",
               "text": "",
-              "size": "5",
+              "width": 5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -732,7 +772,8 @@
             {
               "id": "rightAlt",
               "text": "Alt",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -749,7 +790,8 @@
             {
               "id": "rightWin",
               "text": "Super",
-              "size": "1.5",
+              "width": 1.5,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
@@ -766,7 +808,8 @@
             {
               "id": "rightUtility",
               "text": "Util",
-              "size": "1.25",
+              "width": 1.25,
+              "height": 1,
               "keyConfig": {
                 "color": null,
                 "font": {
