@@ -1,7 +1,7 @@
 <template lang='pug'>
   .history-card
     span Font - {{historyData.font.name}}
-    KeyboardKey(:keyValue='keyValue' :defaultKeyConfig='defaultKeyConfig')
+    KeyboardKey.demo-key(:keyValue='keyValue' :defaultKeyConfig='defaultKeyConfig')
 
 </template>
 
@@ -37,9 +37,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.history-card {
-  display: flex;
-}
-
 </style>

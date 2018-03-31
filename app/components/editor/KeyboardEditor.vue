@@ -47,14 +47,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~bulma/sass/utilities/_all";
+
+
 .editor {
+  // 3.35rem is the navbar height
+  height: calc(100vh - 3.25rem);
   display: grid;
   grid-template-columns: 15% 85%;
-  grid-template-rows: 400px 500px;
+  grid-template-rows: 50% 50%;
 
   grid-template-areas:
     "history wizard"
     "history keyboard";
+
+  @include mobile() {
+    grid-template-areas:
+      "wizard wizard"
+      "keyboard keyboard";
+  }
 
   justify-items: center;
 }

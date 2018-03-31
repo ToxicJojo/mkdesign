@@ -5,7 +5,7 @@
         .choice-card-title {{placement.name}}
         .choice-card-description description
         .keys
-          KeyboardKey(:keyValue='keyValues[index]' :defaultKeyConfig='defaultKeyConfig')
+          KeyboardKey.demo-key(:keyValue='keyValues[index]' :defaultKeyConfig='defaultKeyConfig')
         .choice-card-hover-text Click to select the font
 </template>
 
@@ -26,6 +26,8 @@ export default {
       keyValues: [
         {
           text: 'L',
+          width: 1,
+          height: 1,
           keyConfig: {
             font: {
               fontSize: '16px',
@@ -35,6 +37,8 @@ export default {
         },
         {
           text: 'L',
+          width: 1,
+          height: 1,
           keyConfig: {
             font: {
               fontSize: '16px',
@@ -44,6 +48,8 @@ export default {
         },
         {
           text: 'L',
+          width: 1,
+          height: 1,
           keyConfig: {
             font: {
               fontSize: '16px',
@@ -53,6 +59,8 @@ export default {
         },
         {
           text: 'L',
+          width: 1,
+          height: 1,
           keyConfig: {
             font: {
               fontSize: '16px',
@@ -62,6 +70,8 @@ export default {
         },
         {
           text: 'L',
+          width: 1,
+          height: 1,
           keyConfig: {
             font: {
               fontSize: '16px',

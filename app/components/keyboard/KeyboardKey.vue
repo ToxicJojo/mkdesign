@@ -1,7 +1,7 @@
 <template lang='pug'>
-  .key-container(:style='boxStyle')
+  .key-container(@click='bubbleKeyClick' :style='boxStyle')
     .key-border(:style='borderStyle')
-      .key(@click='bubbleKeyClick' :style='keyStyle')
+      .key(:style='keyStyle')
         span {{keyValue.text}}
 </template>
 
@@ -58,9 +58,6 @@ export default {
 
 
       styleObject.backgroundColor = keyConfig.color
-//      styleObject.borderColor = shadeColor(keyConfig.color, -.5)
-
-//      styleObject.height = `${100 * this.keyValue.height}%`
 
       styleObject.color = keyConfig.font.fontColor
       styleObject.fontSize = keyConfig.font.fontSize

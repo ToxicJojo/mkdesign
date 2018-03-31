@@ -5,7 +5,7 @@
         .choice-card-title {{font.name}}
         .choice-card-description {{font.description}}
         .keys
-          KeyboardKey(:keyValue='keyValues[index]' :defaultKeyConfig='defaultKeyConfig')
+          KeyboardKey.demo-key(:keyValue='keyValues[index]' :defaultKeyConfig='defaultKeyConfig')
         .choice-card-hover-text Click to select the font
 
 </template>
@@ -50,6 +50,8 @@ export default {
       return fonts.map((font) => {
         return {
           text: 'Q',
+          width: 1,
+          height: 1,
           keyConfig: {
             font,
           }
@@ -70,7 +72,6 @@ export default {
 
 .keys {
   display: flex;
-  height: 100px;
 }
 
 </style>

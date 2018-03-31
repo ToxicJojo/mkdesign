@@ -23,6 +23,7 @@ export default {
 
 .editor-wizard {
   grid-area: wizard;
+  overflow-x: scroll;
 
   width: 100%;
   border-bottom: 1px solid black;

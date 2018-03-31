@@ -1,7 +1,7 @@
 <template lang='pug'>
   .history-card
     span Placement - {{historyData.placement.name}}
-    KeyboardKey(:keyValue='keyValue' :defaultKeyConfig='defaultKeyConfig')
+    KeyboardKey.demo-key(:keyValue='keyValue' :defaultKeyConfig='defaultKeyConfig')
 </template>
 
 <script>
@@ -20,6 +20,8 @@ export default {
     keyValue () {
       const keyData = {
         text: 'L',
+        width: 1,
+        height: 1,
         keyConfig: {
           legendPlacement: this.historyData.placement.legendPlacement,
           font: {
