@@ -4,7 +4,7 @@
       template(v-for='color in colors')
         .color-row
           template(v-for='(value, key) in color')
-            .color-block(@click='pickColor(value)' v-if='filterColorKey(key)' :style='{ "background-color": value }')
+            .color-block(@click='pickColor(value)' v-if='filterColorKey(key)' v-bind:class='{ selected: (value === selectedColor) }' :style='{ "background-color": value }')
 </template>
 
 <script>
@@ -17,6 +17,7 @@ export default {
   data () {
     return {
       colors,
+      selectedColor: '',
     }
   },
   methods: {
@@ -28,6 +29,7 @@ export default {
       })
     },
     pickColor (color) {
+      this.selectedColor = color
       this.$emit('colorPicked', color)
     },
   },
@@ -56,7 +58,14 @@ export default {
 
   &:hover {
     transform: scale(1.2);
+    border: 1px solid rgba(0, 0, 0, .7);
+  }
+
+  &.selected {
+    transform: scale(1.2);
+    border: 1px solid rgba(0, 0, 0, .7);
   }
 }
+
 
 </style>
