@@ -1,6 +1,8 @@
 <template lang='pug'>
   .color-picker
     .colors
+      .color-block
+        input.color-picker(type='color' @change='colorPickerChange')
       template(v-for='color in colors')
         .color-row
           template(v-for='(value, key) in color')
@@ -29,14 +31,23 @@ export default {
       })
     },
     pickColor (color) {
+      console.log(color)
       this.selectedColor = color
       this.$emit('colorPicked', color)
+    },
+    colorPickerChange(e) {
+      this.pickColor(e.target.value)
     },
   },
 }
 </script>
 
 <style lang="scss" scoped>
+
+.color-picker {
+  height: 100%;
+  width: 100%;
+}
 
 .colors {
   display: flex;
