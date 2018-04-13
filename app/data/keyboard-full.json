@@ -1,7 +1,7 @@
 {
   "name": "Full",
   "description": "ALL the keys.",
-  "picture_url": "/static/img/layouts/tenkeyless.png",
+  "picture_url": "/static/img/layouts/full.png",
   "grid_name": "keyboard-full",
   "defaultKeyConfig": {
     "color" : "#212121",
