@@ -40,6 +40,8 @@ export default {
   align-content: center;
   margin: 20px;
 
+  border-radius: 5px;
+
   align-self: center;
 
   transition: background-color .3s, color .3s;

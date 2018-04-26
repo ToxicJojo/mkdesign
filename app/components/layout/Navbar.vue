@@ -36,7 +36,7 @@
 
         a.navbar-item(@click='saveEditorState')
           | Save
-          b-icon(icon='cloud-upload')
+          b-icon(icon='content-save')
 
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Download
