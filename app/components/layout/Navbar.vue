@@ -1,7 +1,7 @@
 <template lang='pug'>
   nav.navbar.is-primary
     .navbar-brand
-      router-link.navbar-item(to='/editor/layout') MKDesign
+      router-link.navbar-item(to='/layout') MKDesign
       .navbar-burger(@click='toggleNavbarMenu')
         span
         span
@@ -47,7 +47,7 @@
             a.navbar-item(@click='downloadJPEG') JPEG
             a.navbar-item(@click='downloadSVG') SVG
 
-        a.navbar-item(@click='$store.commit("editor/reset");$router.push("/editor/layout")')
+        a.navbar-item(@click='$store.commit("editor/reset");$router.push("/layout")')
           | Reset
           b-icon(icon='reload')
 </template>

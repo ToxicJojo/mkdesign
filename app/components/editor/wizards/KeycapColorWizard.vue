@@ -41,4 +41,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.board-color-wizard {
+  text-align: center;
+}
+
 </style>

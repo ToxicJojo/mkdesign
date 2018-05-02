@@ -28,7 +28,7 @@
               b-field(label='Font color')
                 .color-field(:style='{"background-color": keyValue.keyConfig.font.fontColor}' v-if='keyValue.keyConfig.font.fontColor' @click='selectFontColor = true' )
                 .color-field(:style='{"background-color": defaultKeyConfig.font.fontColor}' @click='selectFontColor = true' v-else)
-
+    p.title(v-else) Click a key to edit it individually
 
 
 </template>
@@ -141,6 +141,10 @@ export default {
   width: 64px;
   height: 64px;
   border: 1px solid black;
+}
+
+.title {
+  text-align: center;
 }
 
 </style>

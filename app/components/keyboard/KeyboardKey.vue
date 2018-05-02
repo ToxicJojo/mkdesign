@@ -148,13 +148,4 @@ export default {
   transition: background-color .3s;
   animation: pop-in .3s;
 }
-
-@keyframes pop-in{
-  0% {
-    transform: scale(0)
-  },
-  100% {
-    transform: scale(1)
-  }
-}
 </style>

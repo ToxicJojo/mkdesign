@@ -1,5 +1,6 @@
 <template lang='pug'>
   .font-wizard
+    span Choose a font
     .choice-cards
       .choice-card(v-for='(font, index) in fonts' @click='selectFont(font)')
         .choice-card-title {{font.name}}
@@ -72,6 +73,10 @@ export default {
 
 .keys {
   display: flex;
+}
+
+.font-wizard {
+  text-align: center;
 }
 
 </style>

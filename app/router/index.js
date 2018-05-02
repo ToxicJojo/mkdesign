@@ -18,7 +18,7 @@ const router = new Router({
   mode: 'history',
   routes: [
     { 
-      path: '/editor',
+      path: '/',
       name: 'editor',
       component: KeyboarEditor,
       children: [

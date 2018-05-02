@@ -1,5 +1,5 @@
 <template lang='pug'>
-  .board-color-wizard
+  .font-color-wizard
     span Choose a font color
     ColorPicker(@colorPicked='selectColor')
 </template>
@@ -41,4 +41,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.font-color-wizard {
+  text-align: center;
+}
+
 </style>

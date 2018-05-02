@@ -45,4 +45,8 @@ export default {
   align-items: center;
 }
 
+.button.is-primary {
+  margin-top: 20px;
+}
+
 </style>

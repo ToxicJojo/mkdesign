@@ -6,7 +6,7 @@
         .choice-card-description description
         .keys
           KeyboardKey.demo-key(:keyValue='keyValues[index]' :defaultKeyConfig='defaultKeyConfig')
-        .choice-card-hover-text Click to select the font
+        .choice-card-hover-text Click to select the placement
 </template>
 
 <script>
